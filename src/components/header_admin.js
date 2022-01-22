@@ -1,4 +1,4 @@
-const HeaderAdminx = {
+const HeaderAdmin = {
     render() {
         return /* html */`
         <header class="bg-white shadow">
@@ -9,4 +9,4 @@ const HeaderAdminx = {
     },
 };
 
-export default HeaderAdminx;
+export default HeaderAdmin;
