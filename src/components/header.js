@@ -3,19 +3,18 @@ const Header = {
         return /* html */`
         <header>
             <div
-                class="h-50 px-64 flex w-full justify-between bg-white items-center fixed transition-all border-solid border-b border-current">
+                class="h-50 px-64 flex w-full justify-between bg-white items-center transition-all border-solid border-b border-current">
                 <div class="header-logo h-25 w-20">
                     <a href="/"><img class="" src="https://www.coolmate.me/images/logo-coolmate.svg"
                             alt="Logo Coolmate"></a>
                 </div>
                 <div class="nav">
                     <ul class="flex p-5 text-center">
-                        <li class="pr-10 hover:opacity-70 font-semibold"><a href="">Outlet</a></li>
-                        <li class="pr-10 hover:opacity-70 font-semibold"><a href="">Tủ đồ</a></li>
-                        <li class="pr-10 hover:opacity-70 font-semibold"><a href="">Sản Phẩm</a></li>
-                        <li class="pr-10 hover:opacity-70 font-semibold"><a href="">Coolxprint</a></li>
-                        <li class="pr-10 hover:opacity-70 font-semibold"><a href="">Về Coolmate</a></li>
-                        <li class="pr-10 hover:opacity-70 font-semibold"><a href="">Chọn Size</a></li>
+                        <li class="pr-10 hover:opacity-70 font-semibold"><a href="/outlet">Outlet</a></li>
+                        <li class="pr-10 hover:opacity-70 font-semibold"><a href="/wardrobe">Tủ đồ</a></li>
+                        <li class="pr-10 hover:opacity-70 font-semibold"><a href="/product">Sản Phẩm</a></li>
+                        <li class="pr-10 hover:opacity-70 font-semibold"><a href="/introduce">Về Coolmate</a></li>
+                        <li class="pr-10 hover:opacity-70 font-semibold"><a href="/size">Chọn Size</a></li>
                     </ul>
                 </div>
                 <div class="header-action flex">
