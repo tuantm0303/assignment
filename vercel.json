@@ -1,0 +1,56 @@
+{
+    "routes": [
+        {
+            "src": "/",
+            "dest": "/"
+        },
+        {
+            "src": "/outlet",
+            "dest": "/"
+        },
+        {
+            "src": "/news/(.*)",
+            "dest": "/"
+        },
+        {
+            "src": "/wardrobe",
+            "dest": "/"
+        },
+        {
+            "src": "/product",
+            "dest": "/"
+        },
+        {
+            "src": "/introduce",
+            "dest": "/"
+        },
+        {
+            "src": "/size",
+            "dest": "/"
+        },
+        {
+            "src": "/signin",
+            "dest": "/"
+        },
+        {
+            "src": "/signup",
+            "dest": "/"
+        },
+        {
+            "src": "/admin/news/index",
+            "dest": "/"
+        },
+        {
+            "src": "/admin/dasboard",
+            "dest": "/"
+        },
+        {
+            "src": "/admin/news/edit/(.*)",
+            "dest": "/"
+        },
+        {
+            "src": "/admin/news/add",
+            "dest": "/"
+        }
+    ]
+}
