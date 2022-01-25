@@ -1,14 +1,14 @@
 import Header from "../components/header";
 import Banner from "../components/banner";
-import NewList from "../components/newList";
+import NewLists from "../components/newLists";
 import Footer from "../components/footer";
 
 const HomePage = {
-    render() {
+    async render() {
         return /* html */`
             ${Header.render()}
             ${Banner.render()}
-            ${NewList.render()}
+            ${await NewLists.render()}
             ${Footer.render()}
             `;
     },
