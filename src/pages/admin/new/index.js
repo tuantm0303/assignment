@@ -93,11 +93,12 @@ const AdminNewPage = {
     },
 
     afterRender() {
-        const buttons = document.querySelectorAll(".btn");
-        buttons.forEach((button) => {
-            button.addEventListener("click", () => {
-                const { id } = button.dataset;
-                const confirm = window.confirm("Bạn muốn xóa dữ liệu này chứ???");
+        const btns = document.querySelectorAll(".btn");
+        btns.forEach((btn) => {
+            btn.addEventListener("click", () => {
+                const { id } = btn.dataset; // dataset lấy từ data-id="${item.id}"
+                // eslint-disable-next-line no-alert
+                const confirm = window.confirm("Bạn có muốn xóa không???");
 
                 if (confirm) {
                     remove(id)
