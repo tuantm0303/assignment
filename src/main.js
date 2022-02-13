@@ -1,4 +1,5 @@
 import Navigo from "navigo";
+import toastr from "toastr";
 import Dashboard from "./pages/admin/dashboard";
 import AdminNewPage from "./pages/admin/new";
 import Add from "./pages/admin/new/add";
@@ -22,6 +23,24 @@ const print = async (main, id) => {
     $("main").innerHTML = await main.render(id);
     if (main.afterRender) main.afterRender(id);
 };
+
+// private admin
+router.on("admin/*/", () => {
+    console.log("yc admin");
+}, {
+    before(done, match) {
+        if (localStorage.getItem("user")) {
+            const checkAdmin = JSON.parse(localStorage.getItem("user")).email;
+            if (checkAdmin.email === "tuan@gmail.com") {
+                done();
+            } else {
+                document.location.href = "/";
+            }
+        } else {
+            match();
+        }
+    },
+});
 
 router.on({ // on tu Navigo
     "/": () => {
