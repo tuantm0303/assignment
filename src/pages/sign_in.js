@@ -45,7 +45,7 @@ const SignInPage = {
                 if (data.email === "tuan@gmail.com") {
                     document.location.href = "/admin/dashboard";
                 } else {
-                    document.location.href = "/#/";
+                    document.location.href = "/";
                 }
             }, 3000);
         });
