@@ -1,3 +1,4 @@
+import axios from "axios";
 import { add } from "../../../api/post";
 import HeaderAdmin from "../../../components/header_admin";
 import NavAdmin from "../../../components/nav_admin";
@@ -73,7 +74,7 @@ const Add = {
                                                             class="relative cursor-pointer bg-white rounded-md font-medium text-indigo-600 hover:text-indigo-500 focus-within:outline-none focus-within:ring-2 focus-within:ring-offset-2 focus-within:ring-indigo-500">
                                                             <span>Upload new file</span>
                                                             <input class="shadow-sm focus:ring-indigo-500 focus:border-indigo-500 mt-1 block w-full sm:text-sm border border-gray-300 rounded-md p-3" 
-                                                            type="text" name="title" placeholder="Image" id="img-post">
+                                                            type="file" name="title" placeholder="Image" id="img-post">
                                                             <!-- <input id="img-post" name="file-upload" type="file" class="sr-only "> -->
                                                         </label>
                                                     </div>
@@ -100,18 +101,37 @@ const Add = {
 
     afterRender() {
         const formAdd = document.querySelector("#form-add");
-        formAdd.addEventListener("submit", (e) => {
-            e.preventDefault();
+        const imgPost = document.querySelector("#img-post");
 
-            const postFake = {
-                title: document.querySelector("#title-post").value,
-                img: document.querySelector("#img-post").value,
-                desc: document.querySelector("#desc-post").value,
-            };
-            add(postFake)
-                .then(() => {
-                    window.location.href = "/admin/news/index";
-                });
+        imgPost.addEventListener("change", async (e) => {
+            const file = e.target.files[0];
+            const CLOUDINARY_API = "https://api.cloudinary.com/v1_1/dw78kmsie/image/upload";
+
+            // lay gia tri cua file upload cho du dung formDtaa
+            const formData = new FormData();
+            formData.append("file", file);
+            formData.append("upload_preset", "tuantmph13096fpt");
+
+            // call api
+            const { data } = await axios.post(CLOUDINARY_API, formData, {
+                headers: {
+                    "Content-Type": "application/form-data",
+                },
+            });
+
+            formAdd.addEventListener("submit", (event) => {
+                event.preventDefault();
+
+                const postFake = {
+                    title: document.querySelector("#title-post").value,
+                    img: data.url,
+                    desc: document.querySelector("#desc-post").value,
+                };
+                add(postFake)
+                    .then(() => {
+                        window.location.href = "/admin/news/index";
+                    });
+            });
         });
     },
 };
