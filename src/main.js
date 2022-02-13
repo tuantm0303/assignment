@@ -1,5 +1,4 @@
 import Navigo from "navigo";
-import toastr from "toastr";
 import Dashboard from "./pages/admin/dashboard";
 import AdminNewPage from "./pages/admin/new";
 import Add from "./pages/admin/new/add";
