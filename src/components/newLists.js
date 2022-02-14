@@ -51,13 +51,12 @@ const NewLists = {
                         </a>
                     </div>
                     <div class="product-heading pl-2">
-                        <h3 class="product-title text-2xl font-semibold">${item.title}</h3>
+                        <h3 class="product-title font-semibold">${item.title}</h3>
                         <div class="product-price">
-                            <div rel-script="product-price" data-price="599000" data-compare-price="768000"
-                                data-sale="1" class="product-prices flex">
+                            <div rel-script="product-price" class="product-prices flex">
                                 <ins class="text-red-500 text-sm pr-5">${item.priceNew} $</ins>
                                 <del>${item.priceOld} $</del>
-                                <span class="text-red-500 text-sm px-5">-23%</span>
+                                <span class="text-red-500 text-sm px-5">-${item.sale}%</span>
                             </div>
                         </div>
                     </div>
