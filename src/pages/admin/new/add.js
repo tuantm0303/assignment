@@ -163,7 +163,6 @@ const Add = {
                     listImageUrl.push(response.data.url);
                 });
             }
-            console.log(listImageUrl);
 
             formAdd.addEventListener("submit", (event) => {
                 event.preventDefault();
