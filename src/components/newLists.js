@@ -47,7 +47,7 @@ const NewLists = {
                             <img src="${item.img[0]}"
                                 alt="${item.img[0]}" class="w-[385px] h-[261] group-hover:hidden">
                             <img src="${item.img[1]}"
-                            alt="" class="hidden group-hover:block group-hover:opacity-70 z-10" >
+                            alt="${item.img[1]}" class="hidden group-hover:block group-hover:opacity-70 z-10" >
                         </a>
                     </div>
                     <div class="product-heading pl-2">
