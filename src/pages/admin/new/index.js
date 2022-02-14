@@ -46,7 +46,19 @@ const AdminNewPage = {
                                                 Image
                                             </th>
                                             <th scope="col" class="text-center px-6 py-3 text-xs font-medium text-gray-500 uppercase tracking-wider">
+                                                Image 2
+                                            </th>
+                                            <th scope="col" class="text-center px-6 py-3 text-xs font-medium text-gray-500 uppercase tracking-wider">
                                                 Title
+                                            </th>
+                                            <th scope="col" class="text-center px-6 py-3 text-xs font-medium text-gray-500 uppercase tracking-wider">
+                                                Price New
+                                            </th>
+                                            <th scope="col" class="text-center px-6 py-3 text-xs font-medium text-gray-500 uppercase tracking-wider">
+                                                Price Old
+                                            </th>
+                                            <th scope="col" class="text-center px-6 py-3 text-xs font-medium text-gray-500 uppercase tracking-wider">
+                                                Sale
                                             </th>
                                             <th scope="col" class="text-center px-6 py-3 text-xs font-medium text-gray-500 uppercase tracking-wider">
                                                 Description
@@ -66,8 +78,26 @@ const AdminNewPage = {
                                                     </div>
                                                 </div>
                                             </td>
+                                            <td class="px-6 py-4 whitespace-nowrap w-[110px] h-[261]">
+                                                <img src=${item.img[0]} alt=${item.img[0]}>
+                                            </td>
+                                            <td class="px-6 py-4 whitespace-nowrap w-[110px] h-[261]">
+                                                <img src=${item.img[1]} alt=${item.img[1]}>
+                                            </td>
                                             <td class="px-6 py-4 whitespace-nowrap">
-                                                <img src=${item.img} alt=${item.img}>
+                                                <span class="px-2 inline-flex text-xs leading-5 font-semibold rounded-full bg-green-100 text-green-800">
+                                                ${item.title}
+                                                </span>
+                                            </td>
+                                            <td class="px-6 py-4 whitespace-nowrap">
+                                                <span class="px-2 inline-flex text-xs leading-5 font-semibold rounded-full bg-green-100 text-green-800">
+                                                ${item.priceNew}
+                                                </span>
+                                            </td>
+                                            <td class="px-6 py-4 whitespace-nowrap">
+                                                <span class="px-2 inline-flex text-xs leading-5 font-semibold rounded-full bg-green-100 text-green-800">
+                                                ${item.priceOld}
+                                                </span>
                                             </td>
                                             <td class="px-6 py-4 whitespace-nowrap">
                                                 <span class="px-2 inline-flex text-xs leading-5 font-semibold rounded-full bg-green-100 text-green-800">
