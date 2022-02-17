@@ -1,4 +1,4 @@
-import { get, update } from "../../../api/post";
+import { get, update } from "../../../api/posts";
 import HeaderAdmin from "../../../components/header_admin";
 import NavAdmin from "../../../components/nav_admin";
 
@@ -56,10 +56,43 @@ const Edit = {
                                             ${data.desc}</textarea>
                                         </div>
                                     </div>
+                                    <!-- Price New -->
+                                    <div>
+                                        <div class="col-span-3 sm:col-span-2">
+                                            <label for="company-website" class="block text-sm font-medium text-gray-700">Price New</label>
+                                            <div class="mt-1 flex rounded-md shadow-sm">
+                                                <input class="shadow-sm focus:ring-indigo-500 focus:border-indigo-500 mt-1 block w-full sm:text-sm border border-gray-300 rounded-md p-3" 
+                                                type="text" name="price-new" id="price-new" value="${data.priceNew}">
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <!-- Price Old -->
+                                    <div>
+                                        <div class="col-span-3 sm:col-span-2">
+                                            <label for="company-website" class="block text-sm font-medium text-gray-700">Price Old</label>
+                                            <div class="mt-1 flex rounded-md shadow-sm">
+                                                <input class="shadow-sm focus:ring-indigo-500 focus:border-indigo-500 mt-1 block w-full sm:text-sm border border-gray-300 rounded-md p-3" 
+                                                type="text" name="price-old" id="price-old" value="${data.priceOld}">
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <!-- Sale -->
+                                    <div>
+                                        <div class="col-span-3 sm:col-span-2">
+                                            <label for="company-website" class="block text-sm font-medium text-gray-700">Sale</label>
+                                            <div class="mt-1 flex rounded-md shadow-sm">
+                                                <input class="shadow-sm focus:ring-indigo-500 focus:border-indigo-500 mt-1 block w-full sm:text-sm border border-gray-300 rounded-md p-3" 
+                                                type="text" name="sale" id="sale" value="${data.sale}">
+                                            </div>
+                                        </div>
+                                    </div>
                                 <!-- Images -->
                                     <div>
                                         <label class="block text-sm font-medium text-gray-700">Image</label>
-                                        <img class="my-5" src="${data.img}" alt="${data.img}">
+                                        <div class="flex img-product">
+                                            <img class="my-5 w-[110px] h-[261] m-2" src="${data.img[0]}" alt="${data.img[0]}">
+                                            <img class="my-5 w-[110px] h-[261] m-2" src="${data.img[1]}" alt="${data.img[1]}">
+                                        </div>
                                         <div
                                             class="mt-1 flex justify-center px-6 pt-5 pb-6 border-2 border-gray-300 border-dashed rounded-md">
                                             <div class="space-y-1 text-center">
@@ -107,6 +140,9 @@ const Edit = {
             const postFake = {
                 id,
                 title: document.querySelector("#title-post").value,
+                priceNew: document.querySelector("#price-new").value,
+                priceOld: document.querySelector("#price-old").value,
+                sale: document.querySelector("#sale").value,
                 img: document.querySelector("#img-post").value,
                 desc: document.querySelector("#desc-post").value,
             };

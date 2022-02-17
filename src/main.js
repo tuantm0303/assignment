@@ -5,7 +5,7 @@ import Add from "./pages/admin/new/add";
 import Edit from "./pages/admin/new/edit";
 import HomePage from "./pages/homepage";
 import Introduce from "./pages/introduce";
-import NewDetails from "./pages/newDetails";
+import DetailPost from "./pages/detailPost";
 import NotFoundPage from "./pages/notFoundPage";
 import OutLet from "./pages/outlet";
 import Product from "./pages/product";
@@ -47,7 +47,7 @@ router.on({ // on tu Navigo
     },
     "/newdetails/:id": ({ data }) => {
         const { id } = data;
-        print(NewDetails, id);
+        print(DetailPost, id);
     },
     "/outlet": () => {
         print(OutLet);

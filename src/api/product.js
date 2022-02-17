@@ -10,9 +10,9 @@ const get = (id) => {
     return instance.get(url);
 };
 
-const add = (post) => {
+const add = (product) => {
     const url = `/product/`;
-    return instance.post(url, post);
+    return instance.product(url, product);
 };
 
 const remove = (id) => {
@@ -20,9 +20,9 @@ const remove = (id) => {
     return instance.delete(url);
 };
 
-const update = (post) => {
-    const url = `/product/${post.id}`;
-    return instance.put(url, post);
+const update = (product) => {
+    const url = `/product/${product.id}`;
+    return instance.put(url, product);
 };
 
 export {

@@ -2,15 +2,63 @@
   "posts": [
     {
       "title": "Alright Box - Thoải mái mỗi ngày",
-      "priceNew": "599",
-      "priceOld": "786",
+      "priceNew": "599.000",
+      "priceOld": "768.000",
       "sale": "23",
       "img": [
-        "http://res.cloudinary.com/dw78kmsie/image/upload/v1644857880/img1_1_lhv1g3.jpg",
-        "http://res.cloudinary.com/dw78kmsie/image/upload/v1644857881/img1_2_rl9jki.jpg"
+        "http://res.cloudinary.com/dw78kmsie/image/upload/v1645026155/img1_1_azffw7.jpg",
+        "http://res.cloudinary.com/dw78kmsie/image/upload/v1645026156/img1_2_kiwhgu.jpg"
       ],
-      "desc": "- 01 Áo dài tay Cotton Compact Premium màu đen - thoáng mát, thoải mái\n- 01 Quần Jeans Basic Slim mày xanh nhạt - Co giãn, chất jeans mềm mại\n- Tự hào sản xuất tại Việt Nam",
+      "desc": "Lựa chọn Alright Box - \"thoải mái mỗi ngày\" chính là giải pháp cho những chàng trai đơn giản nhưng vẫn tinh tế. Đặc biệt sự thoải chính là ưu tiên hàng đầu cho chàng tự do thoả sức vận động mỗi ngày.\n\nChiếc áo dài tay Cotton Compact Premium + Quần Jeans Basic Slim chắc chắn sẽ là một Combo hoàn hảo cho những ngày bận rộn, đơn giản nhưng không hề đơn điệu, chất liệu mềm mại, co giãn. Toát lên vẻ đẹp trai nam tính, và cực hiện đại.\n\nKhông chỉ quan tâm đến kiểu dáng và mẫu mã, tại Coolmate, chúng tôi còn chú trọng đến chất lượng và sự tiện lợi. Khi cầm sản phẩm trên tay, các chàng không chỉ sở hữu những món đồ cơ bản với chất lượng cực tốt, bền chắc, mà hơn thế nữa chính là những món đồ cơ bản mà các chàng muốn mặc hằng ngày vì những tính năng cực kỳ hữu ích và tiện lợi mà nó mang lại. Có thể ở đâu đó đây chỉ đơn giản là những tính năng nhỏ bé nhưng Coolmate tin rằng chính những điều nhỏ bé này lại là điều các chàng cần có nhất.                                                ",
       "id": 1
+    },
+    {
+      "title": "Daily Box - Mặc là đẹp",
+      "priceNew": "559.000",
+      "priceOld": "688.000",
+      "sale": "19",
+      "img": [
+        "http://res.cloudinary.com/dw78kmsie/image/upload/v1645026354/img2_1_z0hznh.jpg",
+        "http://res.cloudinary.com/dw78kmsie/image/upload/v1645026355/img2_2_rzasrw.jpg"
+      ],
+      "desc": "Lựa chọn Daily Box - Mặc là đẹp chính là giải pháp cho những chàng trai đơn giản nhưng vẫn tinh tế. Chẳng mất nhiều thời gian để suy nghĩ bạn đã có ngay một bộ OutFit đơn giản nhưng cực thời thượng và nam tính\n\nChiếc áo dài tay Áo Polo Nam Excool + Quần thể thao Jogger co giãn chắc chắn sẽ là một Combo hoàn hảo cho những ngày bận rộn, đơn giản nhưng không hề đơn điệu, chất liệu mềm mại, co giãn.\n\nKhông chỉ quan tâm đến kiểu dáng và mẫu mã, tại Coolmate, chúng tôi còn chú trọng đến chất lượng và sự tiện lợi. Khi cầm sản phẩm trên tay, các chàng không chỉ sở hữu những món đồ cơ bản với chất lượng cực tốt, bền chắc, mà hơn thế nữa chính là những món đồ cơ bản mà các chàng muốn mặc hằng ngày vì những tính năng cực kỳ hữu ích và tiện lợi mà nó mang lại. Có thể ở đâu đó đây chỉ đơn giản là những tính năng nhỏ bé nhưng Coolmate tin rằng chính những điều nhỏ bé này lại là điều các chàng cần có nhất. \n\nMỗi chàng trai đều cần có trong tủ đồ mình 1 chiếc quần Jogger thể thao đặc biệt thoải mái trong mọi vận động. Và Coolmate đặc biệt cho ra mắt sản phẩm Quần thể thao Jogger phiên bản mới với chất liệu vải 100% Polyester PTT đặc biệt CO GIÃN TUYỆT VỜI đem đến sự thoải mái tối đa.                                                 ",
+      "id": 2
+    },
+    {
+      "title": "New Normal Box - Tự tin xuống phố",
+      "priceNew": "899.000",
+      "priceOld": "1298.000",
+      "sale": "31",
+      "img": [
+        "http://res.cloudinary.com/dw78kmsie/image/upload/v1645026681/img3_1_gqdele.jpg",
+        "http://res.cloudinary.com/dw78kmsie/image/upload/v1645026682/img3_2_uglv76.jpg"
+      ],
+      "desc": "Với New Normal Box, Coolmate mang đến cho bạn những sản phẩm \"hot\" nhất và tiện lợi nhất hiện nay của chúng tôi. Cùng chúng tôi tìm hiểu bên trong box đồ gồm những sản phẩm gì nhé!\n\nCÓ GÌ TRONG BOX ĐỒ NÀY\n\n\nChi tiết sản phẩm:\n\n01 Áo khoác New Normal với chất liệu xử lý công nghệ HeiQ ViroBlock có khả năng diệt 99.99% SARS-CoV2 trong vòng 30p\n01 Quần \u001dJeans kiểu dáng Slightly Slimfit, không bo ống phù hợp mặc đa chức năng với chất liệu 98% Cotton + 2% Spandex, có co giãn nhẹ để tạo sự thoải mái khi vận động\nLợi ích nổi bật của sản phẩm? \n\nĐể thích ứng với tất cả những gì đang diễn ra, Coolmate giới thiệu đến bạn chiếc áo khoác New Normal - một chiếc áo để bạn cảm thấy an toàn trong cuộc sống mới.\nHiện đại, năng động với quần chiếc Jeans basic mềm mại, co giãn phù hợp mặc đa chức năng\nTự hào sản xuất tại Việt Nam",
+      "id": 3
+    },
+    {
+      "title": "Handsome Box - Tự tin mỗi ngày",
+      "priceNew": "449.000",
+      "priceOld": "578.000",
+      "sale": "23",
+      "img": [
+        "http://res.cloudinary.com/dw78kmsie/image/upload/v1645026817/img4_1_lc3zlx.jpg",
+        "http://res.cloudinary.com/dw78kmsie/image/upload/v1645026818/img4_2_ghhdmk.jpg"
+      ],
+      "desc": "Với Handsome Box đồ này, chúng tôi mang đến cho bạn những sản phẩm \"hot\" nhất và tiện lợi nhất hiện nay của chúng tôi. Cùng chúng tôi tìm hiểu bên trong box đồ gồm những sản phẩm gì nhé!\n\nCÓ GÌ TRONG BOX ĐỒ NÀY\n\n\nChi tiết sản phẩm:\n\n01 Áo thun nam dài tay Prime Henley với chất liệu Cotton Compact thoải mái, thấm hút mồ hôi tốt và mềm mại, thích hợp trong tiết trời thu đông \n01 Quần short Kaki vintage \u001dsử dụng chất liệu Cotton chất lượng cao với khoá kéo YKK và đai quần được thêm phần dây chun co giãn để tạo sự thoải mái khi mặc. Đồng thời Công nghệ Wash Enzyme sau may giúp quần bền màu hơn sau giặt, mềm mại hơn, không co rút, và đường chỉ may chắc chắn hơn\nLợi ích nổi bật của sản phẩm? \n\nÁo dài tay Prime Henley chính là sự kết hợp tuyệt vời giữa những chiếc polo và áo dài tay cổ tròn. Với điểm nhấn từ chiếc cổ áo 3 nút, cùng phần tay dài xuông chắc chắn sẽ nâng cấp sự thanh lịch và nam tính của bạn lên một level khác.\n\nQuần Short Kaki nam Vintage có kiểu dáng đơn giản, lịch sự và đặc biệt thoải mái, đủ năng động để bạn mặc khi ra phố.\nTự hào sản xuất tại Việt Nam                                                ",
+      "id": 4
+    },
+    {
+      "title": "Essential Box - Thoải mái hàng ngày",
+      "priceNew": "329.000",
+      "priceOld": "429.000",
+      "sale": "24",
+      "img": [
+        "http://res.cloudinary.com/dw78kmsie/image/upload/v1645027084/img5_1_ee0hqy.jpg",
+        "http://res.cloudinary.com/dw78kmsie/image/upload/v1645027085/img5_2_o4bdut.jpg"
+      ],
+      "desc": "\"Một công ty không cần phải lớn mới làm điều ý nghĩa\" - Coolmate đã nghĩ và tin như thế khi khởi xướng chương trình Care & Share này. Sức nhỏ làm việc nhỏ, có ít đóng góp ít, có nhiều đóng góp nhiều. Ít nhất chúng ta đã bắt tay vào làm và lan toả điều tích cực. \n\n Hiểu một cách đơn giản, \"Care & Share: For A Better Childhood\" là một chương trình được xây dựng và duy trì bởi Coolmate nhằm góp sức mình giúp đỡ những trẻ em kém may mắn, giúp các em đến trường và có cuộc sống tốt hơn. Coolmate cam kết sẽ dành 10% doanh thu từ tất cả những sản phẩm trong danh mục \"Care & Share\" để đóng góp vào quỹ dành cho trẻ em có hoàn cảnh khó khăn. Coolmate mong muốn là một cầu nối để viết tiếp những ước mơ con trẻ còn dang dở, hướng tới một tương lai tốt đẹp hơn. \n\n\nVỚI ESSENTIAL BOX BẠN SẼ CÓ GÌ? \n01 áo thun Cotton Compact Care & Share phiên bản BWhite chắc chắn sẽ là chiếc áo đem đến sự cá tính và chiếc áo bạn sẽ muốn mặc hàng ngày bởi sự mềm mại, chống nhăn hiệu qủa cùng thiết kế đặc biệt. \n01 mũ lưỡi trai SS2 Care & Share đem đến cho bạn diện mạo cực ngầu, một chiếc mũ có thể đội khi đi ra ngoài hoặc là 1 item thể hiện cá tính của bạn thân \n01 khẩu trang kháng khuẩn với 2 lớp vải mè kháng khuẩn bảo vệ sức khoẻ của bạn trong thời điểm hiện tại ",
+      "id": 5
     }
   ],
   "users": [

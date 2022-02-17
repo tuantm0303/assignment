@@ -1,7 +1,7 @@
 /* eslint-disable no-plusplus */
 /* eslint-disable no-await-in-loop */
 import axios from "axios";
-import { add } from "../../../api/post";
+import { add } from "../../../api/posts";
 import HeaderAdmin from "../../../components/header_admin";
 import NavAdmin from "../../../components/nav_admin";
 

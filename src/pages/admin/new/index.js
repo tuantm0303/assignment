@@ -1,4 +1,4 @@
-import { getAll, remove } from "../../../api/post";
+import { getAll, remove } from "../../../api/posts";
 import HeaderAdmin from "../../../components/header_admin";
 import NavAdmin from "../../../components/nav_admin";
 
@@ -61,9 +61,6 @@ const AdminNewPage = {
                                                 Sale
                                             </th>
                                             <th scope="col" class="text-center px-6 py-3 text-xs font-medium text-gray-500 uppercase tracking-wider">
-                                                Description
-                                            </th>
-                                            <th scope="col" class="text-center px-6 py-3 text-xs font-medium text-gray-500 uppercase tracking-wider">
                                                 Action
                                             </th>
                                         </tr>
@@ -91,21 +88,18 @@ const AdminNewPage = {
                                             </td>
                                             <td class="px-6 py-4 whitespace-nowrap">
                                                 <span class="px-2 inline-flex text-xs leading-5 font-semibold rounded-full bg-green-100 text-green-800">
-                                                ${item.priceNew}
+                                                ${item.priceNew.toLocaleString("vi", { style: "currency", currency: "VND" })}
                                                 </span>
                                             </td>
                                             <td class="px-6 py-4 whitespace-nowrap">
                                                 <span class="px-2 inline-flex text-xs leading-5 font-semibold rounded-full bg-green-100 text-green-800">
-                                                ${item.priceOld}
+                                                ${item.priceOld.toLocaleString("vi", { style: "currency", currency: "VND" })}
                                                 </span>
                                             </td>
                                             <td class="px-6 py-4 whitespace-nowrap">
                                                 <span class="px-2 inline-flex text-xs leading-5 font-semibold rounded-full bg-green-100 text-green-800">
-                                                ${item.title}
+                                                ${item.sale}
                                                 </span>
-                                            </td>
-                                            <td class="px-6 py-4 text-sm text-gray-500">
-                                                ${item.desc}
                                             </td>
                                             <td class="px-6 py-4 whitespace-nowrap text-center text-sm font-medium">
                                                 <a href="/admin/news/edit/${item.id}" class="text-white rounded-xl bg-blue-600 py-2 px-4 mr-2 hover:text-black hover:bg-red-600">Edit</a>

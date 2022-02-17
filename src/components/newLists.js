@@ -1,4 +1,4 @@
-import { getAll } from "../api/post";
+import { getAll } from "../api/posts";
 
 const NewLists = {
     async render() {
@@ -43,7 +43,7 @@ const NewLists = {
                         <button class="tags border-2 rounded-xl h-7 w-11 bg-red-500 text-white-500">New</button>
                     </div>
                     <div class="pro-img">
-                        <a href="#">
+                        <a href="newdetails/${item.id}">
                             <img src="${item.img[0]}"
                                 alt="${item.img[0]}" class="w-[385px] h-[261] group-hover:hidden">
                             <img src="${item.img[1]}"
@@ -54,8 +54,8 @@ const NewLists = {
                         <h3 class="product-title font-semibold">${item.title}</h3>
                         <div class="product-price">
                             <div rel-script="product-price" class="product-prices flex">
-                                <ins class="text-red-500 text-sm pr-5">${item.priceNew} $</ins>
-                                <del>${item.priceOld} $</del>
+                                <ins class="text-red-500 text-sm pr-5">${item.priceNew.toLocaleString("vi", { style: "currency", currency: "VND" })} $</ins>
+                                <del>${item.priceOld.toLocaleString("vi", { style: "currency", currency: "VND" })} $</del>
                                 <span class="text-red-500 text-sm px-5">-${item.sale}%</span>
                             </div>
                         </div>
