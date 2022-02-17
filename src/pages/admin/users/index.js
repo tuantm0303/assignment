@@ -1,4 +1,5 @@
-import { getAll } from "../../../api/user";
+/* eslint-disable no-return-assign */
+import { getAll, remove } from "../../../api/user";
 import HeaderAdmin from "../../../components/header_admin";
 import NavAdmin from "../../../components/nav_admin";
 
@@ -82,10 +83,9 @@ const UsersAdmin = {
                                                 </span>
                                             </td>
                                             <td class="px-6 py-4 whitespace-nowrap text-center text-sm font-medium">
-                                                <a href="/#/admin/posts/edit/${item.id}" class="text-white rounded-xl bg-blue-600 py-2 px-4 mr-2 hover:text-black hover:bg-red-600">Edit</a>
                                                 <button data-id="${item.id}" class="btn btn-delete font-semibold border border-blue-600 rounded-xl bg-blue-600 text-white p-2 hover:text-black hover:bg-red-600 hover:border-red-600">Delete</button>
                                             </td>
-                                        </tr>`).join("")}                                
+                                        </tr>`).join("")}
                                     </tbody>
                                 </table>
                             </div>
@@ -94,6 +94,22 @@ const UsersAdmin = {
                     </div>
                 </main>
             </div>`;
+    },
+
+    afterRender() {
+        const btns = document.querySelectorAll(".btn");
+        btns.forEach((btn) => {
+            btn.addEventListener("click", () => {
+                const { id } = btn.dataset; // dataset lấy từ data-id="${item.id}"
+                // eslint-disable-next-line no-alert
+                const confirm = window.confirm("Bạn có muốn xóa không???");
+
+                if (confirm) {
+                    remove(id)
+                        .then(() => window.location.href = "/#/admin/users/index");
+                }
+            });
+        });
     },
 };
 

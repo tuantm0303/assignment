@@ -78,22 +78,9 @@
     },
     {
       "email": "tuan2@gmail.com",
-      "password": "$2a$10$m.4m9BUsLqB6CBpzRD4lOuMtqvtoO4kVDonZzSLOFiOs50U5l5z6m",
+      "password": "$2a$10$lClbTO0Ny.SEIUTSmObzKecK0i1LDoBviUdYEZjDxFzxokCrUWHEy",
       "name": "tuan2",
-      "permission": "client",
       "id": 3
-    },
-    {
-      "email": "tuan03@gmail.com",
-      "password": "$2a$10$reQdxXij6NW.QxkfVeLYYODy8qiIB3VKrKvl6VY6uxMg/CQEJoW1a",
-      "name": "minhtuan",
-      "id": 4
-    },
-    {
-      "email": "tuan04@gmail.com",
-      "password": "$2a$10$gt1/QmHm4RANPEdqcSurl.vLQi/2XzK0fvieofuwi/I/SU3MmtKW.",
-      "name": "tuan04",
-      "id": 5
     }
   ]
 }

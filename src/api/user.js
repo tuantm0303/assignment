@@ -14,3 +14,8 @@ export const getAll = () => {
     const url = "/users";
     return instance.get(url);
 };
+
+export const remove = (id) => {
+    const url = `/users/${id}`;
+    return instance.delete(url);
+};

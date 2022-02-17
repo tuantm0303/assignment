@@ -1,3 +1,4 @@
+/* eslint-disable no-return-assign */
 import { getAll, remove } from "../../../api/posts";
 import HeaderAdmin from "../../../components/header_admin";
 import NavAdmin from "../../../components/nav_admin";
@@ -126,7 +127,7 @@ const AdminPostPage = {
 
                 if (confirm) {
                     remove(id)
-                        .then(() => window.location.reload());
+                        .then(() => window.location.href = "/#/admin/posts/index");
                 }
             });
         });

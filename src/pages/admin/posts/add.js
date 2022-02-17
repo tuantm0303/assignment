@@ -19,7 +19,7 @@ const Add = {
                     <h2 class="text-2xl font-bold leading-7 text-gray-900 sm:text-3xl sm:truncate">Thêm mới bài viết</h2>
                 </div>
                 <div class="mt-5 flex lg:mt-0 lg:ml-4">
-                    <a href="/#/admin/news/index" class="sm:ml-3">
+                    <a href="/#/admin/posts/index" class="sm:ml-3">
                     <button type="button" class="inline-flex items-center px-4 py-2 border border-transparent rounded-md shadow-sm text-sm font-medium text-white bg-indigo-600 hover:bg-indigo-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500">
                         <svg viewBox="0 0 24 24" width="24" height="24" stroke="currentColor" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round" class="-ml-1 mr-2 h-5 w-5"><circle cx="12" cy="12" r="10"></circle><polyline points="12 8 8 12 12 16"></polyline><line x1="16" y1="12" x2="8" y2="12"></line></svg>
                         Quay lại
@@ -177,7 +177,7 @@ const Add = {
                 };
                 add(postFake)
                     .then(() => {
-                        window.location.href = "/#/admin/news/index";
+                        window.location.href = "/#/admin/posts/index";
                     });
             });
         });
