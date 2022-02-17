@@ -177,7 +177,7 @@ const Add = {
                 };
                 add(postFake)
                     .then(() => {
-                        window.location.href = "/admin/news/index";
+                        window.location.href = "/#/admin/news/index";
                     });
             });
         });
