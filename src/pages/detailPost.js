@@ -1,3 +1,5 @@
+import toastr from "toastr";
+import "toastr/build/toastr.min.css";
 import { get } from "../api/posts";
 import Footer from "../components/footer";
 import Header from "../components/header";
@@ -21,7 +23,7 @@ const DetailPost = {
                         <span class="text-red-500 text-sm px-5">-${data.sale}%</span>
                     </div>
                     <div class="addtocart flex">
-                        <input type="number" value="1" id="inputValue" class="m-2 p-2 input-quantity border-2 border-solid rounded-xl items-center h-10 w-14 leading-4" >
+                        <input type="number" id="inputValue" class="m-2 p-2 input-quantity border-2 border-solid rounded-xl items-center h-10 w-14 leading-4" >
                         <button id="btn-add-to-cart"
                             class="btn m-2 border-2 border-solid border-red-400 rounded-xl bg-red-400 w-full text-white h-10 hover:opacity-90">
                             Thêm vào giỏ hàng
@@ -33,10 +35,14 @@ const DetailPost = {
     },
 
     afterRender(id) {
-        const addtocart = document.querySelector("#btn-add-to-cart");
-        addtocart.addEventListener("click", async () => {
-            const data = await get(id);
-            addToCart({ ...data, quantity: 1 });
+        const btnAddToCart = document.querySelector("#btn-add-to-cart");
+        const addValue = document.querySelector("#inputValue");
+        btnAddToCart.addEventListener("click", async () => {
+            const { data } = await get(id);
+            // spread operator
+            addToCart({ ...data, quantity: addValue.value ? addValue.value : 1 }, () => {
+                toastr.success("Bạn đã thêm sản phẩm này vào giỏ hàng");
+            });
         });
     },
 };

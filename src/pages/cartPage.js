@@ -1,5 +1,7 @@
 import Footer from "../components/footer";
 import Header from "../components/header";
+import { decreaseQuantity, increaseQuantity, removePostInCart } from "./utils/cart";
+import { reRender } from "./utils/reRender";
 
 const CartPage = {
     render() {
@@ -7,7 +9,6 @@ const CartPage = {
 
         // them vao localStorage
         if (localStorage.getItem("cart")) {
-            console.log(cart)
             cart = JSON.parse(localStorage.getItem("cart"));
         }
         return /* html */ `
@@ -40,6 +41,22 @@ const CartPage = {
             </table>
         ${Footer.render()}
         `;
+    },
+
+    afterRender() {
+        const buttons = document.querySelectorAll(".btn");
+        buttons.forEach((button) => {
+            button.addEventListener("click", () => {
+                const { id } = button.dataset;
+                if (button.classList.contains("btn-increase")) {
+                    increaseQuantity(id, () => reRender(CartPage, "#main"));
+                } else if (button.classList.contains("btn-decrease")) {
+                    decreaseQuantity(id, () => reRender(CartPage, "#main"));
+                } else {
+                    removePostInCart(id, () => reRender(CartPage, "#main"));
+                }
+            });
+        });
     },
 };
 

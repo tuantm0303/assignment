@@ -71,7 +71,7 @@ const Footer = {
                     <h3 class="pb-4 row-title font-semibold text-white">COOLMATE lắng nghe bạn!</h3>
                     <p class="desc text-white text-xs py-3">Chúng tôi luôn trân trọng và mong đợi nhận được mọi ý kiến đóng
                         góp từ khách hàng để có thể nâng cấp trải nghiệm dịch vụ và sản phẩm tốt hơn nữa.</p>
-                    <button class="btn text-white bg-red-500 rounded-xl py-3 px-5 hover:bg-white-500 hover:text-black">Gửi ý
+                    <button class="btn-yk text-white bg-red-500 rounded-xl py-3 px-5 hover:bg-white-500 hover:text-black">Gửi ý
                         kiến</button>
                     <div class="contact">
                         <div class="phone flex my-10">
