@@ -25,7 +25,7 @@
       "id": 2
     },
     {
-      "title": "New Normal Box - Tự tin xuống phố",
+      "title": "New Normal Box - Tự tin ",
       "priceNew": "899.000",
       "priceOld": "1298.000",
       "sale": "31",
@@ -49,7 +49,7 @@
       "id": 4
     },
     {
-      "title": "Essential Box - Thoải mái hàng ngày",
+      "title": "Essential Box - Thoải mái ",
       "priceNew": "329.000",
       "priceOld": "429.000",
       "sale": "24",
@@ -66,19 +66,34 @@
       "email": "tuan@gmail.com",
       "password": "$2a$10$R/MLzKM7J6FdEza3/h1jP.vTflcR2j3KnEkTLh5PU7QXYLgAyRIb6",
       "name": "tuan",
+      "permission": "admin",
       "id": 1
     },
     {
       "email": "tuanno1@gmail.com",
       "password": "$2a$10$90MX8Bj6aCFg5cas9YskhOP/aLx5VHyYZSiF4SLu/5t3A6ba35QuS",
       "name": "tuanno1",
+      "permission": "client",
       "id": 2
     },
     {
       "email": "tuan2@gmail.com",
       "password": "$2a$10$m.4m9BUsLqB6CBpzRD4lOuMtqvtoO4kVDonZzSLOFiOs50U5l5z6m",
       "name": "tuan2",
+      "permission": "client",
       "id": 3
+    },
+    {
+      "email": "tuan03@gmail.com",
+      "password": "$2a$10$reQdxXij6NW.QxkfVeLYYODy8qiIB3VKrKvl6VY6uxMg/CQEJoW1a",
+      "name": "minhtuan",
+      "id": 4
+    },
+    {
+      "email": "tuan04@gmail.com",
+      "password": "$2a$10$gt1/QmHm4RANPEdqcSurl.vLQi/2XzK0fvieofuwi/I/SU3MmtKW.",
+      "name": "tuan04",
+      "id": 5
     }
   ]
 }

@@ -47,7 +47,7 @@ const SignUpPage = {
                     password: document.querySelector("#password").value,
                 });
                 // add localStorage
-                // localStorage.setItem("user", JSON.stringify(data.user));
+                localStorage.setItem("user", JSON.stringify(data.user));
                 toastr.success("Đăng kí thành công");
 
                 if (data.user) {

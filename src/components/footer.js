@@ -1,7 +1,7 @@
 const Footer = {
     render() {
         return /* html */ `
-        <footer class="bg-black mt-8">
+        <footer class="bg-black mt-8 relative">
             <div class="footer-inner p-8 grid gap-6 grid-cols-5">
                 <div class="row">
                     <h3 class="pb-4 row-title font-semibold text-white">Khám phá COOLMATE</h3>

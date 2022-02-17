@@ -1,8 +1,8 @@
 import Navigo from "navigo";
 import Dashboard from "./pages/admin/dashboard";
-import AdminNewPage from "./pages/admin/new";
-import Add from "./pages/admin/new/add";
-import Edit from "./pages/admin/new/edit";
+import AdminPostPage from "./pages/admin/posts";
+import Add from "./pages/admin/posts/add";
+import Edit from "./pages/admin/posts/edit";
 import HomePage from "./pages/homepage";
 import Introduce from "./pages/introduce";
 import DetailPost from "./pages/detailPost";
@@ -14,6 +14,7 @@ import SignUpPage from "./pages/sign_up";
 import Size from "./pages/size";
 import wardrobe from "./pages/wardrobe";
 import CartPage from "./pages/cartPage";
+import UsersAdmin from "./pages/admin/users";
 
 const router = new Navigo("/", { linksSelector: "a", hash: true });
 
@@ -79,13 +80,16 @@ router.on({ // on tu Navigo
     "/admin/dashboard": () => {
         print(Dashboard);
     },
-    "/admin/news/index": () => {
-        print(AdminNewPage);
+    "/admin/posts/index": () => {
+        print(AdminPostPage);
     },
-    "/admin/news/add": () => {
+    "/admin/users/index": () => {
+        print(UsersAdmin);
+    },
+    "/admin/posts/add": () => {
         print(Add);
     },
-    "/admin/news/edit/:id": ({ data }) => {
+    "/admin/posts/edit/:id": ({ data }) => {
         const { id } = data;
         print(Edit, id);
     },

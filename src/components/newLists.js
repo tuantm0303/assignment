@@ -5,9 +5,9 @@ const NewLists = {
         // sử dụng destructuring
         const { data } = await getAll();
         return /* html */`
-        <div class="product-show grid grid-cols-5 gap-2">
+        <div class="product-show flex">
         ${data.map((item) => /* html */ `
-        <div class="group products p-1 border-2 border-solid border-black m-3">
+            <div class="group products p-1 border-2 border-solid border-black m-3">
                 <div class="product-img relative">
                     <div class="product-reviews flex justify-between w-full absolute z-20">
                         <div class="star-quantily flex">
@@ -42,12 +42,12 @@ const NewLists = {
                         </div>
                         <button class="tags border-2 rounded-xl h-7 w-11 bg-red-500 text-white-500">New</button>
                     </div>
-                    <div class="pro-img">
-                        <a href="newdetails/${item.id}">
+                    <div class="pro-img overflow-hidden">
+                        <a href="/#/newdetails/${item.id}">
                             <img src="${item.img[0]}"
                                 alt="${item.img[0]}" class="w-[385px] h-[261] group-hover:hidden">
                             <img src="${item.img[1]}"
-                            alt="${item.img[1]}" class="hidden group-hover:block group-hover:opacity-70 z-10" >
+                            alt="${item.img[1]}" class="w-[385px] h-[261] hidden group-hover:block group-hover:filter group-hover:scale-125 transition-all transform duration-500 object-cover z-10" >
                         </a>
                     </div>
                     <div class="product-heading pl-2">
@@ -62,7 +62,7 @@ const NewLists = {
                     </div>
                 </div>
                 <div
-                    class="group-hover:translate-y-[-115px] w-[95%] product-btn relative translate-y-[60px] duration-100 mx-auto">
+                    class="group-hover:translate-y-[-5px] w-[95%] product-btn relative translate-y-[85px] py-5 duration-100 mx-auto">
                     <button
                         class="btn border-2 overflow-hidden border-solid border-blue-500 rounded-xl bg-blue-500 w-full h-10">
                         <a href="#">Mua ngay</a>
