@@ -13,6 +13,7 @@ import SignInPage from "./pages/sign_in";
 import SignUpPage from "./pages/sign_up";
 import Size from "./pages/size";
 import wardrobe from "./pages/wardrobe";
+import CartPage from "./pages/cartPage";
 
 const router = new Navigo("/", { linksSelector: "a" });
 
@@ -63,6 +64,9 @@ router.on({ // on tu Navigo
     },
     "/size": () => {
         print(Size);
+    },
+    "/cart": () => {
+        print(CartPage);
     },
     "/signin": () => {
         print(SignInPage);

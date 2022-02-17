@@ -15,3 +15,7 @@ export const addToCart = (newPost) => {
     }
     localStorage.setItem("cart", JSON.stringify(cart));
 };
+
+// export increaseQuantity = () = {
+
+// }
