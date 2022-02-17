@@ -15,7 +15,7 @@ import Size from "./pages/size";
 import wardrobe from "./pages/wardrobe";
 import CartPage from "./pages/cartPage";
 
-const router = new Navigo("/", { linksSelector: "a" });
+const router = new Navigo("/", { linksSelector: "a", hash: true });
 
 const $ = document.getElementById.bind(document);
 
@@ -26,7 +26,6 @@ const print = async (main, id) => {
 
 // private admin
 router.on("admin/*/", () => {
-
 }, {
     before(done, match) {
         if (localStorage.getItem("user")) {
@@ -34,7 +33,7 @@ router.on("admin/*/", () => {
             if (checkAdmin === "tuan@gmail.com") {
                 done();
             } else {
-                document.location.href = "/";
+                document.location.href = "/#/";
             }
         } else {
             match();
@@ -86,7 +85,7 @@ router.on({ // on tu Navigo
     "/admin/news/add": () => {
         print(Add);
     },
-    "admin/news/edit/:id": ({ data }) => {
+    "/admin/news/edit/:id": ({ data }) => {
         const { id } = data;
         print(Edit, id);
     },
