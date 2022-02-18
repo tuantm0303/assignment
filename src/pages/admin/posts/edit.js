@@ -65,7 +65,7 @@ const Edit = {
                                             <label for="company-website" class="block text-sm font-medium text-gray-700">Price New</label>
                                             <div class="mt-1 flex rounded-md shadow-sm">
                                                 <input class="shadow-sm focus:ring-indigo-500 focus:border-indigo-500 mt-1 block w-full sm:text-sm border border-gray-300 rounded-md p-3" 
-                                                type="text" name="price-new" id="price-new-post" value="${data.priceNew}">
+                                                type="number" name="price-new" id="price-new-post" value="${data.priceNew}">
                                             </div>
                                         </div>
                                     </div>
@@ -75,7 +75,7 @@ const Edit = {
                                             <label for="company-website" class="block text-sm font-medium text-gray-700">Price Old</label>
                                             <div class="mt-1 flex rounded-md shadow-sm">
                                                 <input class="shadow-sm focus:ring-indigo-500 focus:border-indigo-500 mt-1 block w-full sm:text-sm border border-gray-300 rounded-md p-3" 
-                                                type="text" name="price-old" id="price-old-post" value="${data.priceOld}">
+                                                type="number" name="price-old" id="price-old-post" value="${data.priceOld}">
                                             </div>
                                         </div>
                                     </div>
@@ -85,7 +85,7 @@ const Edit = {
                                             <label for="company-website" class="block text-sm font-medium text-gray-700">Sale</label>
                                             <div class="mt-1 flex rounded-md shadow-sm">
                                                 <input class="shadow-sm focus:ring-indigo-500 focus:border-indigo-500 mt-1 block w-full sm:text-sm border border-gray-300 rounded-md p-3" 
-                                                type="text" name="sale" id="sale" value="${data.sale}">
+                                                type="number" name="sale" id="sale" value="${data.sale}">
                                             </div>
                                         </div>
                                     </div>
@@ -151,6 +151,7 @@ const Edit = {
         const CLOUDINARY_API = "https://api.cloudinary.com/v1_1/dw78kmsie/image/upload";
         const CLOUDINARY_PREVIEW = "tuantmph13096fpt";
 
+        // const imgLink = "";
         imgPost.addEventListener("change", (e) => {
             e.preventDefault();
             imgPreview.src = URL.createObjectURL(e.target.files[0]);
@@ -161,6 +162,7 @@ const Edit = {
             e.preventDefault();
             const file = [...imgPost.files];
             const listImageUrl = [];
+            // if (file) {
             const uploadImagePromise = (image) => new Promise((resolve, reject) => {
                 // lay gia tri cua file upload cho du dung formDtaa
                 const formData = new FormData();
@@ -181,6 +183,8 @@ const Edit = {
                     listImageUrl.push(response.data.url);
                 });
             }
+            // imgLink = data.url;
+            // }
 
             const postFake = {
                 id,
