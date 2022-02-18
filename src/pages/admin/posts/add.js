@@ -153,7 +153,7 @@ const Add = {
 
         imgPost.addEventListener("change", (e) => {
             imgPreview.src = URL.createObjectURL(e.target.files[0]);
-            imgPreview2.src = URL.createObjectURL(e.target.files[1])
+            imgPreview2.src = URL.createObjectURL(e.target.files[1]);
         });
 
         formAdd.addEventListener("submit", async (e) => {
