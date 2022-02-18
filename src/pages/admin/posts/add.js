@@ -84,14 +84,14 @@ const Add = {
                                         <div>
                                             <label for="about" class="block text-sm font-medium text-gray-700">Description</label>
                                             <div class="mt-1">
-                                                <textarea id="desc-post" name="about" rows="3" placeholder="Description"
+                                                <textarea id="desc-post" name="about" rows="10" placeholder="Description"
                                                     class="shadow-sm mt-1 block w-full  border border-gray-300 rounded-md p-3">
                                                 </textarea>
                                             </div>
                                         </div>
                                         <!-- preview img -->
                                         <div>
-                                            <label class="block text-sm font-medium text-gray-700">Image</label>
+                                            <label class="block text-sm font-medium text-gray-700">Priview Image</label>
                                             <img class="my-5" src="" alt="">
                                             <div
                                                 class="mt-1 flex justify-center px-6 pt-5 pb-6 border-2 border-gray-300 border-dashed rounded-md">
