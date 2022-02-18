@@ -17,12 +17,7 @@
     <li class="inline-block pr-10 hover:text-yellow-500"><a href="/admin/dashboard">Admin</a></li>
   </ul>
   <div id="main" class="box-border"></div>
-  <script>
-    const logout = document.querySelector("#logout");
-        logout.addEventListener("click", () => {
-            localStorage.removeItem("user");
-        });
-  </script>
+  <script type="module" src="./src/pages/utils/logout.js"></script>
   <script type="module" src="./src/main.js"></script>
 </body>
 
