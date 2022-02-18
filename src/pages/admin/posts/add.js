@@ -89,6 +89,16 @@ const Add = {
                                                 </textarea>
                                             </div>
                                         </div>
+                                        <!-- preview img -->
+                                        <div>
+                                            <label class="block text-sm font-medium text-gray-700">Image</label>
+                                            <img class="my-5" src="" alt="">
+                                            <div
+                                                class="mt-1 flex justify-center px-6 pt-5 pb-6 border-2 border-gray-300 border-dashed rounded-md">
+                                                <img src="http://2.bp.blogspot.com/-MowVHfLkoZU/VhgIRyPbIoI/AAAAAAAATtI/fHk-j_MYUBs/s640/placeholder-image.jpg" id="imgPreview" />
+                                                <img src="http://2.bp.blogspot.com/-MowVHfLkoZU/VhgIRyPbIoI/AAAAAAAATtI/fHk-j_MYUBs/s640/placeholder-image.jpg" id="imgPreview2" />
+                                            </div>
+                                        </div>
                                     <!-- Images -->
                                         <div>
                                             <label class="block text-sm font-medium text-gray-700">Image</label>
@@ -135,18 +145,26 @@ const Add = {
     afterRender() {
         const formAdd = document.querySelector("#form-add");
         const imgPost = document.querySelector("#img-post");
+        const imgPreview = document.querySelector("#imgPreview");
+        const imgPreview2 = document.querySelector("#imgPreview2");
 
-        imgPost.addEventListener("change", async (e) => {
+        const CLOUDINARY_API = "https://api.cloudinary.com/v1_1/dw78kmsie/image/upload";
+        const CLOUDINARY_PREVIEW = "tuantmph13096fpt";
+
+        imgPost.addEventListener("change", (e) => {
+            imgPreview.src = URL.createObjectURL(e.target.files[0]);
+            imgPreview2.src = URL.createObjectURL(e.target.files[1])
+        });
+
+        formAdd.addEventListener("submit", async (e) => {
             e.preventDefault();
             const file = [...imgPost.files];
             const listImageUrl = [];
             const uploadImagePromise = (image) => new Promise((resolve, reject) => {
-                const CLOUDINARY_API = "https://api.cloudinary.com/v1_1/dw78kmsie/image/upload";
-
                 // lay gia tri cua file upload cho du dung formDtaa
                 const formData = new FormData();
                 formData.append("file", image);
-                formData.append("upload_preset", "tuantmph13096fpt");
+                formData.append("upload_preset", CLOUDINARY_PREVIEW);
 
                 // call api
                 const data = axios.post(CLOUDINARY_API, formData, {
@@ -164,22 +182,18 @@ const Add = {
                 });
             }
 
-            formAdd.addEventListener("submit", (event) => {
-                event.preventDefault();
-
-                const postFake = {
-                    title: document.querySelector("#title-post").value,
-                    priceNew: document.querySelector("#price-new-post").value,
-                    priceOld: document.querySelector("#price-old-post").value,
-                    sale: document.querySelector("#sale").value,
-                    img: listImageUrl,
-                    desc: document.querySelector("#desc-post").value,
-                };
-                add(postFake)
-                    .then(() => {
-                        window.location.href = "/#/admin/posts/index";
-                    });
-            });
+            const postFake = {
+                title: document.querySelector("#title-post").value,
+                priceNew: document.querySelector("#price-new-post").value,
+                priceOld: document.querySelector("#price-old-post").value,
+                sale: document.querySelector("#sale").value,
+                img: listImageUrl,
+                desc: document.querySelector("#desc-post").value,
+            };
+            add(postFake)
+                .then(() => {
+                    window.location.href = "/#/admin/posts/index";
+                });
         });
     },
 };
