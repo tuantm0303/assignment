@@ -15,6 +15,7 @@ import Size from "./pages/size";
 import wardrobe from "./pages/wardrobe";
 import CartPage from "./pages/cartPage";
 import UsersAdmin from "./pages/admin/users";
+import profilePage from "./pages/profilePage";
 
 const router = new Navigo("/", { linksSelector: "a", hash: true });
 
@@ -73,6 +74,9 @@ router.on({ // on tu Navigo
     },
     "/signup": () => {
         print(SignUpPage);
+    },
+    "/profile": () => {
+        print(profilePage);
     },
     "/admin": () => {
         print(Dashboard);
