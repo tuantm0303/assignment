@@ -1,11 +1,17 @@
 /* eslint-disable no-return-assign */
-import { getAll, remove } from "../../../api/user";
+// import { getAll, remove } from "../../../api/user";
 import HeaderAdmin from "../../../components/header_admin";
 import NavAdmin from "../../../components/nav_admin";
 
-const UsersAdmin = {
+const Order = {
     async render() {
-        const { data } = await getAll();
+        // const { data } = await getAll();
+        let cart = [];
+
+        // them vao localStorage
+        if (localStorage.getItem("cart")) {
+            cart = JSON.parse(localStorage.getItem("cart"));
+        }
         return /* html */`
             <div class="min-h-full">
                 ${HeaderAdmin.render()}
@@ -16,7 +22,7 @@ const UsersAdmin = {
                     <div class="lg:flex lg:items-center lg:justify-between">
                     <div class="flex-1 min-w-0">
                         <h2 class="text-2xl font-bold leading-7 text-gray-900 sm:text-3xl sm:truncate">
-                        Quản lý người dùng
+                        Quản lý đơn hàng
                         </h2>
                     </div>
                 </div>
@@ -34,21 +40,24 @@ const UsersAdmin = {
                                                 ID
                                             </th>
                                             <th scope="col" class="text-center px-6 py-3 text-xs font-medium text-gray-500 uppercase tracking-wider">
-                                                Name
+                                                Product
                                             </th>
                                             <th scope="col" class="text-center px-6 py-3 text-xs font-medium text-gray-500 uppercase tracking-wider">
-                                                Email
+                                                Price New
                                             </th>
                                             <th scope="col" class="text-center px-6 py-3 text-xs font-medium text-gray-500 uppercase tracking-wider">
-                                                Permission
+                                                Price Old
                                             </th>
                                             <th scope="col" class="text-center px-6 py-3 text-xs font-medium text-gray-500 uppercase tracking-wider">
-                                                Action
+                                                Quaytity
+                                            </th>
+                                            <th scope="col" class="text-center px-6 py-3 text-xs font-medium text-gray-500 uppercase tracking-wider">
+                                                Status
                                             </th>
                                         </tr>
                                     </thead>
                                     <tbody class="bg-white divide-y divide-gray-200">
-                                    ${data.map((item) => /* html */`
+                                    ${cart.map((item) => /* html */`
                                         <tr>
                                             <td class="px-6 py-4 whitespace-nowrap text-center">
                                                 <div class="flex items-center">
@@ -59,17 +68,22 @@ const UsersAdmin = {
                                             </td>
                                             <td class="px-6 py-4 whitespace-nowrap text-center">
                                                 <span class="px-2 inline-flex text-xs leading-5 font-semibold rounded-full bg-green-100 text-green-800">
-                                                ${item.name}
+                                                ${item.title}
                                                 </span>
                                             </td>
                                             <td class="px-6 py-4 whitespace-nowrap text-center">
                                                 <span class="px-2 inline-flex text-xs leading-5 font-semibold rounded-full bg-green-100 text-green-800">
-                                                ${item.email}
+                                                ${item.priceNew}
                                                 </span>
                                             </td>
                                             <td class="px-6 py-4 whitespace-nowrap text-center">
                                                 <span class="px-2 inline-flex text-xs leading-5 font-semibold rounded-full bg-green-100 text-green-800">
-                                                ${item.permission}
+                                                ${item.priceOld}
+                                                </span>
+                                            </td>
+                                            <td class="px-6 py-4 whitespace-nowrap text-center">
+                                                <span class="px-2 inline-flex text-xs leading-5 font-semibold rounded-full bg-green-100 text-green-800">
+                                                ${item.quantity}
                                                 </span>
                                             </td>
                                             <td class="px-6 py-4 whitespace-nowrap text-center text-sm font-medium">
@@ -86,21 +100,21 @@ const UsersAdmin = {
             </div>`;
     },
 
-    afterRender() {
-        const btns = document.querySelectorAll(".btn");
-        btns.forEach((btn) => {
-            btn.addEventListener("click", () => {
-                const { id } = btn.dataset; // dataset lấy từ data-id="${item.id}"
-                // eslint-disable-next-line no-alert
-                const confirm = window.confirm("Bạn có muốn xóa không???");
+    // afterRender() {
+    //     const btns = document.querySelectorAll(".btn");
+    //     btns.forEach((btn) => {
+    //         btn.addEventListener("click", () => {
+    //             const { id } = btn.dataset; // dataset lấy từ data-id="${item.id}"
+    //             // eslint-disable-next-line no-alert
+    //             const confirm = window.confirm("Bạn có muốn xóa không???");
 
-                if (confirm) {
-                    remove(id)
-                        .then(() => window.location.href = "/#/admin/users/index");
-                }
-            });
-        });
-    },
+    //             if (confirm) {
+    //                 remove(id)
+    //                     .then(() => window.location.href = "/#/admin/users/index");
+    //             }
+    //         });
+    //     });
+    // },
 };
 
-export default UsersAdmin;
+export default Order;
