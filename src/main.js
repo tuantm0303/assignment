@@ -49,63 +49,82 @@ router.on("admin/*/", () => {
 router.on({ // on tu Navigo
     "/": () => {
         print(HomePage);
+        document.title = "Trang chủ";
     },
     "/newdetails/:id": ({ data }) => {
         const { id } = data;
         print(DetailPost, id);
+        document.title = "Chi tiết sản phẩm";
     },
     "/outlet": () => {
         print(OutLet);
+        document.title = "Outlet";
     },
     "/wardrobe": () => {
         print(wardrobe);
+        document.title = "Tủ đồ";
     },
     "/product": () => {
         print(Product);
+        document.title = "Sản phẩm";
     },
     "/introduce": () => {
         print(Introduce);
+        document.title = "Về Coolmate";
     },
     "/size": () => {
         print(Size);
+        document.title = "Chọn Size";
     },
     "/cart": () => {
         print(CartPage);
+        document.title = "Giỏ hàng";
     },
     "/signin": () => {
         print(SignInPage);
+        document.title = "Đăng nhập";
     },
     "/signup": () => {
         print(SignUpPage);
+        document.title = "Đăng ký";
     },
     "/profile": () => {
         print(profilePage);
+        document.title = "Thông tin khách hàng";
     },
     "/admin/posts/index": () => {
         print(AdminPostPage);
+        document.title = "Quản lý sản phẩm";
     },
     "/admin/users/index": () => {
         print(UsersAdmin);
+        document.title = "Quản lý người dùng";
     },
     "/admin/order/index": () => {
         print(Order);
+        document.title = "Quản lý đơn hàng";
     },
     "/admin/category/index": () => {
         print(Category);
+        document.title = "Quản lý danh mục";
     },
     "/admin/posts/add": () => {
         print(Add);
+        document.title = "Thêm sản phẩm";
     },
     "/admin/category/add": () => {
         print(AddCategory);
+        document.title = "Thêm danh mục";
     },
     "/admin/posts/edit/:id": ({ data }) => {
         const { id } = data;
         print(Edit, id);
+        document.title = "Sửa sản phẩm";
     },
     "/admin/category/edit/:id": ({ data }) => {
         const { id } = data;
         print(EditCategory, id);
+        document.title = "Sửa danh mục";
     },
 });
 
