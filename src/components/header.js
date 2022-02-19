@@ -18,12 +18,14 @@ const Header = {
                     </ul>
                 </div>
                 <div class="header-action flex">
-                    <input type=text name="keyword" placeholder="Tìm kiếm sản phẩm..." class="mr-2">
-                    <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 mr-5 hover:opacity-70 hover:text-red-500" fill="none" viewBox="0 0 24 24"
-                        stroke="currentColor">
-                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
-                            d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z" />
-                    </svg>
+                    <form action="#" method="" class="search flex border relative">
+                        <input type="text" name="keyword" placeholder="Tìm kiếm sản phẩm..." class="search-input mr-2 p-1">
+                        <svg xmlns="http://www.w3.org/2000/svg" class="search-icon pt-1 h-6 w-6 mr-3 hover:opacity-70 hover:text-red-500" fill="none" viewBox="0 0 24 24"
+                            stroke="currentColor">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z" />
+                        </svg>
+                    </form>
                     <a href="/#/">
                         <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 mr-5 hover:opacity-70 hover:text-red-500" fill="none" viewBox="0 0 24 24"
                             stroke="currentColor">

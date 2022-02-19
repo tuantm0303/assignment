@@ -19,6 +19,8 @@ import Order from "./pages/admin/order";
 import Category from "./pages/admin/category";
 import AddCategory from "./pages/admin/category/add";
 import EditCategory from "./pages/admin/category/edit";
+import searchPage from "./pages/search";
+import Header from "./components/header";
 
 const router = new Navigo("/", { linksSelector: "a", hash: true });
 
@@ -49,6 +51,7 @@ router.on("admin/*/", () => {
 router.on({ // on tu Navigo
     "/": () => {
         print(HomePage);
+        print(Header);
         document.title = "Trang chủ";
     },
     "/newdetails/:id": ({ data }) => {
@@ -87,6 +90,10 @@ router.on({ // on tu Navigo
     "/signup": () => {
         print(SignUpPage);
         document.title = "Đăng ký";
+    },
+    "/search/:key": ({ data }) => {
+        const { key } = data;
+        print(searchPage, key);
     },
     "/profile": () => {
         print(profilePage);

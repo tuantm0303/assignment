@@ -12,6 +12,16 @@ const HomePage = {
             ${Footer.render()}
             `;
     },
+
+    afterRender() {
+        const searchBtn = document.querySelector(".search-input");
+        const search = document.querySelector(".search");
+
+        search.addEventListener("submit", (e) => {
+            e.preventDefault();
+            document.location.href = `/#/search/${searchBtn.value}`;
+        });
+    },
 };
 
 export default HomePage;
