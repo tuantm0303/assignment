@@ -12,7 +12,7 @@ const get = (id) => {
 
 const add = (category) => {
     const url = `/categorys/`;
-    return instance.category(url, category);
+    return instance.post(url, category);
 };
 
 const remove = (id) => {

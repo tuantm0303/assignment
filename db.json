@@ -139,11 +139,19 @@
   "categorys": [
     {
       "id": 1,
-      "name": "category 1"
+      "name": "Bộ"
     },
     {
       "id": 2,
-      "name": "category 2"
+      "name": "Áo Khoác"
+    },
+    {
+      "id": 3,
+      "name": "Áo Thể Thao"
+    },
+    {
+      "id": 4,
+      "name": "Quần Dài"
     }
   ],
   "users": [

@@ -1,5 +1,4 @@
 import Navigo from "navigo";
-import Dashboard from "./pages/admin/dashboard";
 import AdminPostPage from "./pages/admin/posts";
 import Add from "./pages/admin/posts/add";
 import Edit from "./pages/admin/posts/edit";
@@ -18,6 +17,8 @@ import UsersAdmin from "./pages/admin/users";
 import profilePage from "./pages/profilePage";
 import Order from "./pages/admin/order";
 import Category from "./pages/admin/category";
+import AddCategory from "./pages/admin/category/add";
+import EditCategory from "./pages/admin/category/edit";
 
 const router = new Navigo("/", { linksSelector: "a", hash: true });
 
@@ -80,12 +81,6 @@ router.on({ // on tu Navigo
     "/profile": () => {
         print(profilePage);
     },
-    "/admin": () => {
-        print(Dashboard);
-    },
-    "/admin/dashboard": () => {
-        print(Dashboard);
-    },
     "/admin/posts/index": () => {
         print(AdminPostPage);
     },
@@ -101,9 +96,16 @@ router.on({ // on tu Navigo
     "/admin/posts/add": () => {
         print(Add);
     },
+    "/admin/category/add": () => {
+        print(AddCategory);
+    },
     "/admin/posts/edit/:id": ({ data }) => {
         const { id } = data;
         print(Edit, id);
+    },
+    "/admin/category/edit/:id": ({ data }) => {
+        const { id } = data;
+        print(EditCategory, id);
     },
 });
 
