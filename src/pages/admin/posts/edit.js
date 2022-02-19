@@ -59,6 +59,16 @@ const Edit = {
                                             ${data.desc}</textarea>
                                         </div>
                                     </div>
+                                    <!-- cate -->
+                                    <div>
+                                        <div class="col-span-3 sm:col-span-2">
+                                            <label for="company-website" class="block text-sm font-medium text-gray-700">Category</label>
+                                            <div class="mt-1 flex rounded-md shadow-sm">
+                                                <input class="shadow-sm focus:ring-indigo-500 focus:border-indigo-500 mt-1 block w-full sm:text-sm border border-gray-300 rounded-md p-3" 
+                                                type="text" name="cate" placeholder="Category" id="cate" value="${data.cate}">
+                                            </div>
+                                        </div>
+                                    </div>
                                     <!-- Price New -->
                                     <div>
                                         <div class="col-span-3 sm:col-span-2">
@@ -192,6 +202,7 @@ const Edit = {
                 priceNew: document.querySelector("#price-new-post").value,
                 priceOld: document.querySelector("#price-old-post").value,
                 sale: document.querySelector("#sale").value,
+                cate: document.querySelector("#cate").value,
                 img: listImageUrl,
                 desc: document.querySelector("#desc-post").value,
             };

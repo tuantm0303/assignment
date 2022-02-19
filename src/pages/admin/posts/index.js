@@ -16,7 +16,7 @@ const AdminPostPage = {
                     <div class="lg:flex lg:items-center lg:justify-between">
                     <div class="flex-1 min-w-0">
                         <h2 class="text-2xl font-bold leading-7 text-gray-900 sm:text-3xl sm:truncate">
-                        Quản lý tin tức
+                        Quản lý sản phẩm
                         </h2>
                     </div>
                     <div class="mt-5 flex lg:mt-0 lg:ml-4">
@@ -62,6 +62,9 @@ const AdminPostPage = {
                                                 Sale
                                             </th>
                                             <th scope="col" class="text-center px-6 py-3 text-xs font-medium text-gray-500 uppercase tracking-wider">
+                                                Category
+                                            </th>
+                                            <th scope="col" class="text-center px-6 py-3 text-xs font-medium text-gray-500 uppercase tracking-wider">
                                                 Action
                                             </th>
                                         </tr>
@@ -100,6 +103,11 @@ const AdminPostPage = {
                                             <td class="px-6 py-4 whitespace-nowrap">
                                                 <span class="px-2 inline-flex text-xs leading-5 font-semibold rounded-full bg-green-100 text-green-800">
                                                 ${item.sale}
+                                                </span>
+                                            </td>
+                                            <td class="px-6 py-4 whitespace-nowrap">
+                                                <span class="px-2 inline-flex text-xs leading-5 font-semibold rounded-full bg-green-100 text-green-800">
+                                                ${item.cate}
                                                 </span>
                                             </td>
                                             <td class="px-6 py-4 whitespace-nowrap text-center text-sm font-medium">
