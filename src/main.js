@@ -16,6 +16,8 @@ import wardrobe from "./pages/wardrobe";
 import CartPage from "./pages/cartPage";
 import UsersAdmin from "./pages/admin/users";
 import profilePage from "./pages/profilePage";
+import Order from "./pages/admin/order";
+import Category from "./pages/admin/category";
 
 const router = new Navigo("/", { linksSelector: "a", hash: true });
 
@@ -89,6 +91,12 @@ router.on({ // on tu Navigo
     },
     "/admin/users/index": () => {
         print(UsersAdmin);
+    },
+    "/admin/order/index": () => {
+        print(Order);
+    },
+    "/admin/category/index": () => {
+        print(Category);
     },
     "/admin/posts/add": () => {
         print(Add);
