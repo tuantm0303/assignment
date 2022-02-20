@@ -188,7 +188,9 @@ const CartPage = {
         payment.addEventListener("click", async () => {
             try {
                 await add(...JSON.parse(localStorage.getItem("cart")));
+                localStorage.removeItem("cart");
                 toastr.success("Đặt hàng thành công!");
+                reRender(CartPage, "#main");
             } catch (error) {
                 console.log(error);
             }
