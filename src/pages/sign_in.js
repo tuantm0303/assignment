@@ -43,9 +43,9 @@ const SignInPage = {
             toastr.success("Đăng nhập thành công, vui lòng chờ 3s");
             setTimeout(() => {
                 if (data.email === "tuan@gmail.com") {
-                    document.location.href = "/admin/dashboard";
+                    document.location.href = "/#/admin/posts/index";
                 } else {
-                    document.location.href = "/";
+                    document.location.href = "/#/";
                 }
             }, 3000);
         });
