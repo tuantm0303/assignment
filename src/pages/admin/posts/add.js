@@ -1,3 +1,4 @@
+/* eslint-disable radix */
 /* eslint-disable no-plusplus */
 /* eslint-disable no-await-in-loop */
 import axios from "axios";
@@ -86,7 +87,7 @@ const Add = {
                                             <label for="company-website" class="block text-sm font-medium text-gray-700">Category</label>
                                             <div class="mt-1 flex rounded-md shadow-sm">
                                                 <input class="shadow-sm focus:ring-indigo-500 focus:border-indigo-500 mt-1 block w-full sm:text-sm border border-gray-300 rounded-md p-3" 
-                                                type="text" name="cate" placeholder="Category" id="cate">
+                                                type="number" name="cate" placeholder="Category" id="categoryId">
                                             </div>
                                         </div>
                                     </div>
@@ -197,7 +198,7 @@ const Add = {
                 priceNew: document.querySelector("#price-new-post").value,
                 priceOld: document.querySelector("#price-old-post").value,
                 sale: document.querySelector("#sale").value,
-                cate: document.querySelector("#cate").value,
+                categoryId: parseInt(document.querySelector("#categoryId").value),
                 img: listImageUrl,
                 desc: document.querySelector("#desc-post").value,
             };
