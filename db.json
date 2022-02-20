@@ -76,64 +76,64 @@
       "priceNew": "399.000",
       "priceOld": "499.000",
       "sale": "21",
-      "cate": "Áo Khoác",
+      "categoryId": 2,
       "img": [
-        "http://res.cloudinary.com/dw78kmsie/image/upload/v1645256477/img6_1_bah0ww.jpg",
-        "http://res.cloudinary.com/dw78kmsie/image/upload/v1645256477/img6_2_y2chlx.jpg"
+        "http://res.cloudinary.com/dw78kmsie/image/upload/v1645328827/img6_1_grujjt.jpg",
+        "http://res.cloudinary.com/dw78kmsie/image/upload/v1645328828/img6_2_ue3cpg.jpg"
       ],
-      "desc": "                                            Áo khoác đa năng cản gió và chống UV là sản phẩm áo khoác gió tích hợp mặt nạ chắn giọt bắn rất tiện lợi. Coolmate gửi đến các bạn thêm sự lựa chọn với một sản phẩm có thể sử dụng trong mọi hoàn cảnh. Đặc biệt để có một cuộc sống an toàn trong thời kỳ bình thường mới thì chắc hẳn chiếc áo khoác này sẽ là một người bạn đồng hành không thể thiếu trong tủ quần áo của bạn. \n\nĐặc điểm nổi bật\n- Lớp ngoài với 100% Polyester, không nhăn, đứng form, mịn và chắc chắn\n- Khả năng chống UV chỉ số UPF55+\n- Được tích hợp mặt nạ chống giọt bắn trong suốt, không mờ, hạn chế xước\n- Khoá zip YKK chất lượng tốt nhất thế giới, bảo hành trọn đời\n- Tự hào sản xuất tại Việt Nam\n"
+      "desc": "                                                                                        Áo khoác đa năng cản gió và chống UV là sản phẩm áo khoác gió tích hợp mặt nạ chắn giọt bắn rất tiện lợi. Coolmate gửi đến các bạn thêm sự lựa chọn với một sản phẩm có thể sử dụng trong mọi hoàn cảnh. Đặc biệt để có một cuộc sống an toàn trong thời kỳ bình thường mới thì chắc hẳn chiếc áo khoác này sẽ là một người bạn đồng hành không thể thiếu trong tủ quần áo của bạn. \n\nĐặc điểm nổi bật\n- Lớp ngoài với 100% Polyester, không nhăn, đứng form, mịn và chắc chắn\n- Khả năng chống UV chỉ số UPF55+\n- Được tích hợp mặt nạ chống giọt bắn trong suốt, không mờ, hạn chế xước\n- Khoá zip YKK chất lượng tốt nhất thế giới, bảo hành trọn đời\n- Tự hào sản xuất tại Việt Nam\n"
     },
     {
+      "id": 7,
       "title": "Áo khoác trẻ em New Normal",
       "priceNew": "199.000",
-      "priceOld": "399.00",
+      "priceOld": "399.000",
       "sale": "51",
-      "cate": "Áo khoác",
+      "categoryId": 2,
       "img": [
-        "http://res.cloudinary.com/dw78kmsie/image/upload/v1645256910/img7_1_iwnxst.jpg",
-        "http://res.cloudinary.com/dw78kmsie/image/upload/v1645256911/img7_2_mqlpn5.jpg"
+        "http://res.cloudinary.com/dw78kmsie/image/upload/v1645328896/img7_1_qgzzaa.jpg",
+        "http://res.cloudinary.com/dw78kmsie/image/upload/v1645328897/img7_2_s47m2f.jpg"
       ],
-      "desc": "Bạn Đang Tìm Kiếm Một Chiếc Áo Khoác Cho Gia Đình Trong Cuộc Sống Bình Thường Mới\nĐại dịch Covid-19 không giống như một cơn cúm mùa thông thường mà kéo dài và mang lại sự bất an, buộc tất cả chúng ta phải thay đổi thói quen sống, làm việc và giao tiếp với nhau. Cùng Coolmate xem qua dịch bệnh đã ảnh hưởng như thế nào đến cuộc sống nhé!\n\nĐể thích ứng và bảo vệ gia đình mình tất cả những gì đang diễn ra, Coolmate giới thiệu đến bạn chiếc áo khoác New Normal - một chiếc áo để bạn và gia đình cảm thấy an toàn trong cuộc sống mới.\n\nHeiQ ViroBlock là công nghệ nổi bật nhất của HeiQ công ty công nghệ hàng đầu Thuỵ Sỹ - có tính năng kháng virut và kháng khuẩn. \nĐây là một trong những công nghệ đầu tiên trên thế giới được chứng minh là có hiệu quả chống lại SARS-CoV-2 được ứng dụng lên các sản phẩm may mặc đặc biệt là chiếc áo New Normal Jacket; dựa trên các tiêu chí về độ hiệu quả, độ bền và độ an toàn cho người sử dụng.                                                 ",
-      "id": 7
+      "desc": "                                            Bạn Đang Tìm Kiếm Một Chiếc Áo Khoác Cho Gia Đình Trong Cuộc Sống Bình Thường Mới\nĐại dịch Covid-19 không giống như một cơn cúm mùa thông thường mà kéo dài và mang lại sự bất an, buộc tất cả chúng ta phải thay đổi thói quen sống, làm việc và giao tiếp với nhau. Cùng Coolmate xem qua dịch bệnh đã ảnh hưởng như thế nào đến cuộc sống nhé!\n\nĐể thích ứng và bảo vệ gia đình mình tất cả những gì đang diễn ra, Coolmate giới thiệu đến bạn chiếc áo khoác New Normal - một chiếc áo để bạn và gia đình cảm thấy an toàn trong cuộc sống mới.\n\nHeiQ ViroBlock là công nghệ nổi bật nhất của HeiQ công ty công nghệ hàng đầu Thuỵ Sỹ - có tính năng kháng virut và kháng khuẩn. \nĐây là một trong những công nghệ đầu tiên trên thế giới được chứng minh là có hiệu quả chống lại SARS-CoV-2 được ứng dụng lên các sản phẩm may mặc đặc biệt là chiếc áo New Normal Jacket; dựa trên các tiêu chí về độ hiệu quả, độ bền và độ an toàn cho người sử dụng.                                                 "
     },
     {
+      "id": 8,
       "title": "Áo khoác gió 2 lớp Ultra Light",
       "priceNew": "399.000",
       "priceOld": "499.000",
       "sale": "21",
-      "cate": "Áo khoác",
+      "categoryId": 2,
       "img": [
-        "http://res.cloudinary.com/dw78kmsie/image/upload/v1645257121/img8_1_rglwqx.jpg",
-        "http://res.cloudinary.com/dw78kmsie/image/upload/v1645257122/img8_2_ypigr8.jpg"
+        "http://res.cloudinary.com/dw78kmsie/image/upload/v1645328959/img8_1_bxcdds.jpg",
+        "http://res.cloudinary.com/dw78kmsie/image/upload/v1645328960/img8_2_wao4nf.jpg"
       ],
-      "desc": "Đặc điểm nổi bật\nÁo khoác gió 2 lớp thoải mái giữ ấm và tiện lợi trong mọi hoạt động\nLớp ngoài với 100% Polyester Microfiber Ripstop dệt mật độ cao, siêu mịn + Lớp lót trong vải Mesh 100% Polyester\nỨng dụng công nghệ Trượt nước Water Repellent C8 hiệu quả\nKhả năng chống UPF 40+\nSiêu nhẹ và thoáng khí, không lo bí khi mặc\nÁo với 2 túi bên cạnh có khoá kéo YKK tiện lợi\nKhoá zip YKK chất lượng tốt nhất thế giới, bảo hành trọn đời\nTự hào sản xuất tại Việt Nam\nNgười mẫu: 1m8 - 71kg, mặc XL\n\nUltra Light Jacket sẽ là chiếc áo khoác tiếp theo Coolmate muốn gửi đến các bạn để có nhiều sự lựa chọn và phù hợp với phong cách, cá tính của mỗi người. Một chiếc áo khoác gió với nhiều đặc điểm: vừa vặn, siêu nhẹ, trượt nước, chống tia UV - hẳn sẽ là người bạn đồng hành của bạn trong mọi hoạt động và bất kể thời tiết nào đi nữa. \n\n\nBạn có thể thoải mái mặc chiếc áo khoác Ultra Light Jacket này trong mọi hoàn cảnh\n\nMặc đi làm, đi học chạy xe không lo gió lạnh \nKhoác ngoài cho các hoạt động vận động vẫn luôn thoáng khí, thoải mái \nMặc đi chơi, vẫn tự tin, thể hiện phong cách bởi chiếc áo được thiết kế đơn giản nhưng vừa vặn, đứng form lịch sự",
-      "id": 8
+      "desc": "                                            Đặc điểm nổi bật\nÁo khoác gió 2 lớp thoải mái giữ ấm và tiện lợi trong mọi hoạt động\nLớp ngoài với 100% Polyester Microfiber Ripstop dệt mật độ cao, siêu mịn + Lớp lót trong vải Mesh 100% Polyester\nỨng dụng công nghệ Trượt nước Water Repellent C8 hiệu quả\nKhả năng chống UPF 40+\nSiêu nhẹ và thoáng khí, không lo bí khi mặc\nÁo với 2 túi bên cạnh có khoá kéo YKK tiện lợi\nKhoá zip YKK chất lượng tốt nhất thế giới, bảo hành trọn đời\nTự hào sản xuất tại Việt Nam\nNgười mẫu: 1m8 - 71kg, mặc XL\n\nUltra Light Jacket sẽ là chiếc áo khoác tiếp theo Coolmate muốn gửi đến các bạn để có nhiều sự lựa chọn và phù hợp với phong cách, cá tính của mỗi người. Một chiếc áo khoác gió với nhiều đặc điểm: vừa vặn, siêu nhẹ, trượt nước, chống tia UV - hẳn sẽ là người bạn đồng hành của bạn trong mọi hoạt động và bất kể thời tiết nào đi nữa. \n\n\nBạn có thể thoải mái mặc chiếc áo khoác Ultra Light Jacket này trong mọi hoàn cảnh\n\nMặc đi làm, đi học chạy xe không lo gió lạnh \nKhoác ngoài cho các hoạt động vận động vẫn luôn thoáng khí, thoải mái \nMặc đi chơi, vẫn tự tin, thể hiện phong cách bởi chiếc áo được thiết kế đơn giản nhưng vừa vặn, đứng form lịch sự"
     },
     {
+      "id": 9,
       "title": " Áo khoác New Normal Jacket",
       "priceNew": "399.000",
       "priceOld": "799.000",
       "sale": "51",
-      "cate": "Áo Khoác",
+      "categoryId": 2,
       "img": [
-        "http://res.cloudinary.com/dw78kmsie/image/upload/v1645257406/img9_1_pxdx3o.jpg",
-        "http://res.cloudinary.com/dw78kmsie/image/upload/v1645257406/img9_2_ugxqn8.jpg"
+        "http://res.cloudinary.com/dw78kmsie/image/upload/v1645328989/img9_1_zgx71f.jpg",
+        "http://res.cloudinary.com/dw78kmsie/image/upload/v1645328990/img9_2_dvsqjb.jpg"
       ],
-      "desc": "Đặc điểm nổi bật\n- Chất liệu xử lý công nghệ HeiQ ViroBlock có khả năng diệt 99.99% SARS-CoV2 trong vòng 30p\n- Có mũ trùm và màn chắn giọt bắn tháo rời linh hoạt, đảm bảo sự an toàn và tiện lợi\n- Đồng thời xử lý công nghệ trượt và chống thấm nước Water Repellent C6\n- Siêu nhẹ và thoáng khí, không lo bí khi mặc\n- Áo khoác có 4 túi tiện lợi: 2 túi khoá kéo bên ngoài, 2 túi sâu bên trong dễ dàng đựng đồ\n- Khoá zip YKK chất lượng tốt nhất thế giới, bảo hành trọn đời\n- Tự hào sản xuất tại Việt Nam\n\nĐể thích ứng với tất cả những gì đang diễn ra, Coolmate giới thiệu đến bạn chiếc áo khoác New Normal - một chiếc áo để bạn cảm thấy an toàn trong cuộc sống mới.\n\nHeiQ ViroBlock là công nghệ nổi bật nhất của HeiQ công ty công nghệ hàng đầu Thuỵ Sỹ - có tính năng kháng virut và kháng khuẩn. \nĐây là một trong những công nghệ đầu tiên trên thế giới được chứng minh là có hiệu quả chống lại SARS-CoV-2 được ứng dụng lên các sản phẩm may mặc đặc biệt là chiếc áo New Normal Jacket; dựa trên các tiêu chí về độ hiệu quả, độ bền và độ an toàn cho người sử dụng. \n\nChính vì vậy, rủi ro lây nhiễm Covid-19 từ việc tiếp xúc với các bề mặt đồ may mặc là hoàn toàn hiện hữu. Và chiếc áo khoác New Normal Jacket sẽ giúp bạn luôn cảm thấy an toàn dù ở bất kỳ hoàn cảnh nào, vì công nghệ HeiQ ViroBlock có khả năng diệt trừ hơn 99% virut SARS-CoV-2 trong vòng 30 phút.\n\nCũng như HeiQ với công nghệ HeiQ Viroblock thì sản phẩm này được Coolmate và đối tác của mình là Nam Anh Fabric phát triển trong vòng chưa đầy 3 tháng kể từ khi Việt Nam bị ảnh hưởng nặng nề bởi đại dịch Covid19, bởi chúng tôi tin rằng, Covid19 sẽ không nhanh chóng và dễ dàng biến mất, chúng ta phải sẵn sàng cho một cuộc sống mới, và chấp nhận sống chung với Covid-19. \nVới mong muốn có thể đưa một sản phẩm thực sự CHẤT LƯỢNG và phù hợp BÌNH THƯỜNG MỚI đến nhiều khách hàng hơn nữa.",
-      "id": 9
+      "desc": "                                            Đặc điểm nổi bật\n- Chất liệu xử lý công nghệ HeiQ ViroBlock có khả năng diệt 99.99% SARS-CoV2 trong vòng 30p\n- Có mũ trùm và màn chắn giọt bắn tháo rời linh hoạt, đảm bảo sự an toàn và tiện lợi\n- Đồng thời xử lý công nghệ trượt và chống thấm nước Water Repellent C6\n- Siêu nhẹ và thoáng khí, không lo bí khi mặc\n- Áo khoác có 4 túi tiện lợi: 2 túi khoá kéo bên ngoài, 2 túi sâu bên trong dễ dàng đựng đồ\n- Khoá zip YKK chất lượng tốt nhất thế giới, bảo hành trọn đời\n- Tự hào sản xuất tại Việt Nam\n\nĐể thích ứng với tất cả những gì đang diễn ra, Coolmate giới thiệu đến bạn chiếc áo khoác New Normal - một chiếc áo để bạn cảm thấy an toàn trong cuộc sống mới.\n\nHeiQ ViroBlock là công nghệ nổi bật nhất của HeiQ công ty công nghệ hàng đầu Thuỵ Sỹ - có tính năng kháng virut và kháng khuẩn. \nĐây là một trong những công nghệ đầu tiên trên thế giới được chứng minh là có hiệu quả chống lại SARS-CoV-2 được ứng dụng lên các sản phẩm may mặc đặc biệt là chiếc áo New Normal Jacket; dựa trên các tiêu chí về độ hiệu quả, độ bền và độ an toàn cho người sử dụng. \n\nChính vì vậy, rủi ro lây nhiễm Covid-19 từ việc tiếp xúc với các bề mặt đồ may mặc là hoàn toàn hiện hữu. Và chiếc áo khoác New Normal Jacket sẽ giúp bạn luôn cảm thấy an toàn dù ở bất kỳ hoàn cảnh nào, vì công nghệ HeiQ ViroBlock có khả năng diệt trừ hơn 99% virut SARS-CoV-2 trong vòng 30 phút.\n\nCũng như HeiQ với công nghệ HeiQ Viroblock thì sản phẩm này được Coolmate và đối tác của mình là Nam Anh Fabric phát triển trong vòng chưa đầy 3 tháng kể từ khi Việt Nam bị ảnh hưởng nặng nề bởi đại dịch Covid19, bởi chúng tôi tin rằng, Covid19 sẽ không nhanh chóng và dễ dàng biến mất, chúng ta phải sẵn sàng cho một cuộc sống mới, và chấp nhận sống chung với Covid-19. \nVới mong muốn có thể đưa một sản phẩm thực sự CHẤT LƯỢNG và phù hợp BÌNH THƯỜNG MỚI đến nhiều khách hàng hơn nữa."
     },
     {
+      "id": 10,
       "title": "Áo khoác gió HeiQ ViroBlock",
       "priceNew": "399.000",
       "priceOld": "499.000",
       "sale": "21",
-      "cate": "Áo Khoác",
+      "categoryId": 2,
       "img": [
-        "http://res.cloudinary.com/dw78kmsie/image/upload/v1645257751/img10_1_jp50w8.jpg",
-        "http://res.cloudinary.com/dw78kmsie/image/upload/v1645257752/img10_2_fkbyek.jpg"
+        "http://res.cloudinary.com/dw78kmsie/image/upload/v1645329044/img10_1_jukpe9.jpg",
+        "http://res.cloudinary.com/dw78kmsie/image/upload/v1645329045/img10_2_csh4yk.jpg"
       ],
-      "desc": "Đặc điểm nổi bật\n- Chất liệu xử lý công nghệ HeiQ ViroBlock có khả năng diệt 99.99% SARS-CoV2 trong vòng 30p\n- Đồng thời được xử lý công nghệ trượt và chống thấm nước Water Repellent C6\n- Siêu nhẹ và thoáng khí, không lo bí khi mặc\n- Áo khoác có 4 túi tiện lợi: 2 túi khoá kéo bên ngoài, 2 túi sâu bên trong dễ dàng đựng đồ\n- Khoá zip YKK chất lượng tốt nhất thế giới, bảo hành trọn đời\n- Tự hào sản xuất tại Việt Nam\n- Người mẫu: 1m83 - 78kg, size áo 2XL\n\nHeiQ ViroBlock là công nghệ nổi bật nhất của HeiQ công ty công nghệ hàng đầu Thuỵ Sỹ - có tính năng kháng virut và kháng khuẩn. \nĐây là một trong những công nghệ đầu tiên trên thế giới được chứng minh là có hiệu quả chống lại SARS-CoV-2 được ứng dụng lên các sản phẩm may mặc đặc biệt là chiếc áo New Normal Jacket; dựa trên các tiêu chí về độ hiệu quả, độ bền và độ an toàn cho người sử dụng. \nChính vì vậy, rủi ro lây nhiễm Covid-19 từ việc tiếp xúc với các bề mặt đồ may mặc là hoàn toàn hiện hữu. Và chiếc áo khoác New Normal Jacket sẽ giúp bạn luôn cảm thấy an toàn dù ở bất kỳ hoàn cảnh nào, vì công nghệ HeiQ ViroBlock có khả năng diệt trừ hơn 99% virut SARS-CoV-2 trong vòng 30 phút.\n\nNếu bạn lo lắng chiếc áo khoác New Normal này ứng dụng công nghệ HeiQ diệt virut thì nó sẽ dày cộm, thô ráp hoặc không mềm mại, nhưng không, với chiếc áo khoác này bạn sẽ luôn cảm thấy nhẹ nhàng và thoải mái khi mặc \n\n SỰ KẾT HỢP TẠO RA CHIẾC ÁO KHOÁC ỨNG DỤNG CÔNG NGHỆ HeiQ ViroBlock\nCũng như HeiQ với công nghệ HeiQ Viroblock thì sản phẩm này được Coolmate và đối tác của mình là Nam Anh Fabric phát triển trong vòng chưa đầy 3 tháng kể từ khi Việt Nam bị ảnh hưởng nặng nề bởi đại dịch Covid19, bởi chúng tôi tin rằng, Covid19 sẽ không nhanh chóng và dễ dàng biến mất, chúng ta phải sẵn sàng cho một cuộc sống mới, và chấp nhận sống chung với Covid-19. \n\nVới tất cả sự cố gắng và nỗ lực của mình, Coolmate tin chắc rằng đây sẽ là sản phẩm đem đến sự AN TOÀN và TỰ TIN cho bạn cùng người thân trong cuộc sống bình thường mới này!",
-      "id": 10
+      "desc": "                                            Đặc điểm nổi bật\n- Chất liệu xử lý công nghệ HeiQ ViroBlock có khả năng diệt 99.99% SARS-CoV2 trong vòng 30p\n- Đồng thời được xử lý công nghệ trượt và chống thấm nước Water Repellent C6\n- Siêu nhẹ và thoáng khí, không lo bí khi mặc\n- Áo khoác có 4 túi tiện lợi: 2 túi khoá kéo bên ngoài, 2 túi sâu bên trong dễ dàng đựng đồ\n- Khoá zip YKK chất lượng tốt nhất thế giới, bảo hành trọn đời\n- Tự hào sản xuất tại Việt Nam\n- Người mẫu: 1m83 - 78kg, size áo 2XL\n\nHeiQ ViroBlock là công nghệ nổi bật nhất của HeiQ công ty công nghệ hàng đầu Thuỵ Sỹ - có tính năng kháng virut và kháng khuẩn. \nĐây là một trong những công nghệ đầu tiên trên thế giới được chứng minh là có hiệu quả chống lại SARS-CoV-2 được ứng dụng lên các sản phẩm may mặc đặc biệt là chiếc áo New Normal Jacket; dựa trên các tiêu chí về độ hiệu quả, độ bền và độ an toàn cho người sử dụng. \nChính vì vậy, rủi ro lây nhiễm Covid-19 từ việc tiếp xúc với các bề mặt đồ may mặc là hoàn toàn hiện hữu. Và chiếc áo khoác New Normal Jacket sẽ giúp bạn luôn cảm thấy an toàn dù ở bất kỳ hoàn cảnh nào, vì công nghệ HeiQ ViroBlock có khả năng diệt trừ hơn 99% virut SARS-CoV-2 trong vòng 30 phút.\n\nNếu bạn lo lắng chiếc áo khoác New Normal này ứng dụng công nghệ HeiQ diệt virut thì nó sẽ dày cộm, thô ráp hoặc không mềm mại, nhưng không, với chiếc áo khoác này bạn sẽ luôn cảm thấy nhẹ nhàng và thoải mái khi mặc \n\n SỰ KẾT HỢP TẠO RA CHIẾC ÁO KHOÁC ỨNG DỤNG CÔNG NGHỆ HeiQ ViroBlock\nCũng như HeiQ với công nghệ HeiQ Viroblock thì sản phẩm này được Coolmate và đối tác của mình là Nam Anh Fabric phát triển trong vòng chưa đầy 3 tháng kể từ khi Việt Nam bị ảnh hưởng nặng nề bởi đại dịch Covid19, bởi chúng tôi tin rằng, Covid19 sẽ không nhanh chóng và dễ dàng biến mất, chúng ta phải sẵn sàng cho một cuộc sống mới, và chấp nhận sống chung với Covid-19. \n\nVới tất cả sự cố gắng và nỗ lực của mình, Coolmate tin chắc rằng đây sẽ là sản phẩm đem đến sự AN TOÀN và TỰ TIN cho bạn cùng người thân trong cuộc sống bình thường mới này!"
     },
     {
       "id": 11,
@@ -141,25 +141,25 @@
       "priceNew": "499.000",
       "priceOld": "0",
       "sale": "0",
-      "cate": "Quần Dài",
+      "categoryId": 4,
       "img": [
-        "http://res.cloudinary.com/dw78kmsie/image/upload/v1645279117/img11_1_iw9ex4.jpg",
-        "http://res.cloudinary.com/dw78kmsie/image/upload/v1645279118/img11_2_jvnuoz.jpg"
+        "http://res.cloudinary.com/dw78kmsie/image/upload/v1645329111/img11_1_lmvgmr.jpg",
+        "http://res.cloudinary.com/dw78kmsie/image/upload/v1645329111/img11_2_ipbkqi.jpg"
       ],
-      "desc": "                                            Nếu bạn đang tìm kiếm một chiếc quần Jeans vừa vặn, thoải mái, trẻ trung cùng mức giá hợp lý, thì đây là lựa chọn rất đáng để thử. Bên cạnh chiếc Basic Slim phiên bản đầu tiên, Coolmate giới thiệu đến bạn chiếc Jeans Basic Slim phiên bản thứ 2 với 3 màu: xanh nhạt - xanh đậm và xanh garment và có nhiều form dáng cân đối hơn so với nam giới Việt, để bạn có nhiều hơn sự lựa chọn trong tủ đồ jeans kiểu dáng slim của mình. \n\nCoolmate đã quan tâm từng chi tiết của chiếc quần rất kỹ lưỡng: từng chiếc cúc quần, miếng da phía sau đã được thay thế bằng giấy chuyên dụng để thân thiện hơn với môi trường,... đều được đặt hàng riêng để hoàn thiện. Đây hứa hẹn sẽ là chiếc quần Jeans xứng đáng có trong tủ đồ của bạn\n\nĐặc điểm nổi bật\n- Chất liệu: 98% Cotton + 2% Spandex, có co giãn nhẹ để tạo sự thoải mái khi vận động\n- Kiểu dáng Slightly Slimfit, không bo ống phù hợp mặc đa chức năng\n- Quá trình hoàn thiện đảm bảo chất lượng và tỉ mỉ trong từng đường may\n- BẢO HÀNH TRỌN ĐỜI khoá kéo, bất kỳ khi nào khoá kéo hỏng Coolmate sẽ đổi cho bạn sản phẩm mới!\n- Quần Jeans có form lớn hơn quần bình thường, nếu băn khoăn giữa 2 size, hãy chọn SIZE NHỎ HƠN\n- HDSD: Tránh ngâm trong nước quá lâu - Tránh tiếp xúc cới các chất liệu gây loang màu - Không sử dụng chất tẩy, tránh giặt bằng máy\n- Người mẫu: 1m8 - 75kg, size quần 31\n- Tự hào sản xuất tại Việt Nam\n"
+      "desc": "                                                                                        Nếu bạn đang tìm kiếm một chiếc quần Jeans vừa vặn, thoải mái, trẻ trung cùng mức giá hợp lý, thì đây là lựa chọn rất đáng để thử. Bên cạnh chiếc Basic Slim phiên bản đầu tiên, Coolmate giới thiệu đến bạn chiếc Jeans Basic Slim phiên bản thứ 2 với 3 màu: xanh nhạt - xanh đậm và xanh garment và có nhiều form dáng cân đối hơn so với nam giới Việt, để bạn có nhiều hơn sự lựa chọn trong tủ đồ jeans kiểu dáng slim của mình. \n\nCoolmate đã quan tâm từng chi tiết của chiếc quần rất kỹ lưỡng: từng chiếc cúc quần, miếng da phía sau đã được thay thế bằng giấy chuyên dụng để thân thiện hơn với môi trường,... đều được đặt hàng riêng để hoàn thiện. Đây hứa hẹn sẽ là chiếc quần Jeans xứng đáng có trong tủ đồ của bạn\n\nĐặc điểm nổi bật\n- Chất liệu: 98% Cotton + 2% Spandex, có co giãn nhẹ để tạo sự thoải mái khi vận động\n- Kiểu dáng Slightly Slimfit, không bo ống phù hợp mặc đa chức năng\n- Quá trình hoàn thiện đảm bảo chất lượng và tỉ mỉ trong từng đường may\n- BẢO HÀNH TRỌN ĐỜI khoá kéo, bất kỳ khi nào khoá kéo hỏng Coolmate sẽ đổi cho bạn sản phẩm mới!\n- Quần Jeans có form lớn hơn quần bình thường, nếu băn khoăn giữa 2 size, hãy chọn SIZE NHỎ HƠN\n- HDSD: Tránh ngâm trong nước quá lâu - Tránh tiếp xúc cới các chất liệu gây loang màu - Không sử dụng chất tẩy, tránh giặt bằng máy\n- Người mẫu: 1m8 - 75kg, size quần 31\n- Tự hào sản xuất tại Việt Nam\n"
     },
     {
+      "id": 12,
       "title": "Quần thể thao Jogger co giãn",
       "priceNew": "246.000",
       "priceOld": "289.000",
       "sale": "15",
-      "cate": "Quần Dài",
+      "categoryId": 4,
       "img": [
-        "http://res.cloudinary.com/dw78kmsie/image/upload/v1645278615/img12_1_pf2tms.jpg",
-        "http://res.cloudinary.com/dw78kmsie/image/upload/v1645278616/img12_2_sndlod.jpg"
+        "http://res.cloudinary.com/dw78kmsie/image/upload/v1645329147/img12_1_gqc2nc.jpg",
+        "http://res.cloudinary.com/dw78kmsie/image/upload/v1645329148/img12_2_lmzyoo.jpg"
       ],
-      "desc": "Đặc điểm nổi bật\n- Chất liệu 100% polyester PTT, đảm bảo nhẹ, thoáng khí, co giãn tuyệt vời\n- Dáng quần Slimfit, bạn có thể chọn tăng thêm 1 size\n- Quần Jogger độ dày vừa phải và co giãn tối đa đảm bảo sự thoải mái trong mọi hoạt động, đặc biệt hoạt động thể thao\n- Thiết kế đơn giản, kiểu dáng khoẻ khoắn với túi khoá kéo YKK\n- Đai chun bo zip kèm dây tiện lợi, vừa vặn với cơ thể\n- Tự hào sản xuất tại Việt Nam\n- Người mẫu: 1m65 nặng 61kg, mặc L\n\nLắng nghe khách hàng của mình và hiểu được mỗi chàng trai đều cần có trong tủ đồ mình 1 chiếc quần Jogger thể thao đặc biệt thoải mái trong mọi vận động. Và Coolmate đặc biệt cho ra mắt sản phẩm Quần thể thao Jogger phiên bản mới với chất liệu vải 100% Polyester PTT đặc biệt CO GIÃN TUYỆT VỜI đem đến sự thoải mái tối đa. ",
-      "id": 12
+      "desc": "                                            Đặc điểm nổi bật\n- Chất liệu 100% polyester PTT, đảm bảo nhẹ, thoáng khí, co giãn tuyệt vời\n- Dáng quần Slimfit, bạn có thể chọn tăng thêm 1 size\n- Quần Jogger độ dày vừa phải và co giãn tối đa đảm bảo sự thoải mái trong mọi hoạt động, đặc biệt hoạt động thể thao\n- Thiết kế đơn giản, kiểu dáng khoẻ khoắn với túi khoá kéo YKK\n- Đai chun bo zip kèm dây tiện lợi, vừa vặn với cơ thể\n- Tự hào sản xuất tại Việt Nam\n- Người mẫu: 1m65 nặng 61kg, mặc L\n\nLắng nghe khách hàng của mình và hiểu được mỗi chàng trai đều cần có trong tủ đồ mình 1 chiếc quần Jogger thể thao đặc biệt thoải mái trong mọi vận động. Và Coolmate đặc biệt cho ra mắt sản phẩm Quần thể thao Jogger phiên bản mới với chất liệu vải 100% Polyester PTT đặc biệt CO GIÃN TUYỆT VỜI đem đến sự thoải mái tối đa. "
     },
     {
       "id": 13,
@@ -167,19 +167,19 @@
       "priceNew": "255.000",
       "priceOld": "299.000",
       "sale": "15",
-      "cate": "Quần Dài",
+      "categoryId": 4,
       "img": [
-        "http://res.cloudinary.com/dw78kmsie/image/upload/v1645278998/img13_1_vz3oqq.jpg",
-        "http://res.cloudinary.com/dw78kmsie/image/upload/v1645278998/img13_2_wlgl9r.jpg"
+        "http://res.cloudinary.com/dw78kmsie/image/upload/v1645329181/img13_1_itbkrs.jpg",
+        "http://res.cloudinary.com/dw78kmsie/image/upload/v1645329182/img13_2_klvhun.jpg"
       ],
-      "desc": "Đặc điểm nổi bật\n- Chất liệu 90% Cotton, 10% Polyester; giúp bạn luôn thoáng không gây bí, khó chịu\n- Quần Jogger độ dày vừa phải đảm bảo sự thoải mái trong mọi hoạt động\n- Thiết kế đơn giản, kiểu dáng khoẻ khoắn với túi khoá kéo YKK\n- Đai chun bo zip kèm dây tiện lợi, vừa vặn với cơ thể\n- Tự hào sản xuất tại Việt Nam\n- Người mẫu: 1m78 - 75kg, mặc XL\n\nLắng nghe khách hàng của mình và hiểu được mỗi chàng trai đều cần có trong tủ đồ mình 1 chiếc quần Jogger đặc biệt thoải mái trong ngày. Và Coolmate đặc biệt cho ra mắt sản phẩm Quần All Week Jogger với chất liệu vải Cotton 90% đặc biệt đem đến sự thoải mái và chính là chiếc quần của mỗi bạn trong mùa đông này. \n\nLắng nghe khách hàng của mình và hiểu được mỗi chàng trai đều cần có trong tủ đồ mình 1 chiếc quần Jogger đặc biệt thoải mái trong ngày. Và Coolmate đặc biệt cho ra mắt sản phẩm Quần All Week Jogger với chất liệu vải Cotton 90% đặc biệt đem đến sự thoải mái và chính là chiếc quần của mỗi bạn trong mùa đông này. \n\nNgoài những đặc điểm tự nhiên của kiểu dệt, chiếc quần Jogger nam này còn được Coolmate chú trọng thiết kế thêm những tính năng quan trọng và cần thiết đối với nam giới. Mục đích là để các hoạt động của các chàng trở nên thuận tiện, dễ dàng và nhanh chóng hơn, dù chỉ là những hoạt động thường ngày, đơn giản đến mức chẳng ai muốn quan tâm.\n\nĐừng ngại gì không chọn cho mình ngay chiếc quần Jogger này nhé! "
+      "desc": "                                            Đặc điểm nổi bật\n- Chất liệu 90% Cotton, 10% Polyester; giúp bạn luôn thoáng không gây bí, khó chịu\n- Quần Jogger độ dày vừa phải đảm bảo sự thoải mái trong mọi hoạt động\n- Thiết kế đơn giản, kiểu dáng khoẻ khoắn với túi khoá kéo YKK\n- Đai chun bo zip kèm dây tiện lợi, vừa vặn với cơ thể\n- Tự hào sản xuất tại Việt Nam\n- Người mẫu: 1m78 - 75kg, mặc XL\n\nLắng nghe khách hàng của mình và hiểu được mỗi chàng trai đều cần có trong tủ đồ mình 1 chiếc quần Jogger đặc biệt thoải mái trong ngày. Và Coolmate đặc biệt cho ra mắt sản phẩm Quần All Week Jogger với chất liệu vải Cotton 90% đặc biệt đem đến sự thoải mái và chính là chiếc quần của mỗi bạn trong mùa đông này. \n\nLắng nghe khách hàng của mình và hiểu được mỗi chàng trai đều cần có trong tủ đồ mình 1 chiếc quần Jogger đặc biệt thoải mái trong ngày. Và Coolmate đặc biệt cho ra mắt sản phẩm Quần All Week Jogger với chất liệu vải Cotton 90% đặc biệt đem đến sự thoải mái và chính là chiếc quần của mỗi bạn trong mùa đông này. \n\nNgoài những đặc điểm tự nhiên của kiểu dệt, chiếc quần Jogger nam này còn được Coolmate chú trọng thiết kế thêm những tính năng quan trọng và cần thiết đối với nam giới. Mục đích là để các hoạt động của các chàng trở nên thuận tiện, dễ dàng và nhanh chóng hơn, dù chỉ là những hoạt động thường ngày, đơn giản đến mức chẳng ai muốn quan tâm.\n\nĐừng ngại gì không chọn cho mình ngay chiếc quần Jogger này nhé! "
     },
     {
       "title": "Quần Jeans Basic Slim",
       "priceNew": "499.000",
       "priceOld": "0",
       "sale": "0",
-      "cate": "Quần Dài",
+      "categoryId": 4,
       "img": [
         "http://res.cloudinary.com/dw78kmsie/image/upload/v1645279378/img14_1_adsxia.jpg",
         "http://res.cloudinary.com/dw78kmsie/image/upload/v1645279380/img14_2_m6w4pa.jpg"
@@ -192,13 +192,26 @@
       "priceNew": "299.000",
       "priceOld": "0",
       "sale": "0",
-      "cate": "Quần Dài",
+      "categoryId": 4,
       "img": [
         "http://res.cloudinary.com/dw78kmsie/image/upload/v1645280567/img15_1_cmec4j.jpg",
         "http://res.cloudinary.com/dw78kmsie/image/upload/v1645280567/img15_2_dj0edw.jpg"
       ],
       "desc": "Đặc điểm nổi bật\nChất liệu: 47% Polyester Sorona + 53% Polyester\nSử dụng sợi SORONA có nguồn gốc từ thực vật\nSản phẩm đầu tiên nhuộm bằng công nghệ CLEANDYE tại Việt Nam\nQuần ống dài, lưng chun CÓ DÂY RÚT tiện lợi vừa vặn với cơ thể\nDáng suông, không bo ống, rộng gấu phù hợp mặc đa chức năng\nTự hào sản xuất tại Việt Nam\nNgười mẫu: 1m65 nặng 61kg, mặc L\n\nVÌ SAO LẠI LÀ SỢI SORONA?\n\nVới mong muốn đem đến cho khách hàng những sản phẩm tốt nhất, không chỉ từ cảm nhận khi mặc mà Coolmate còn mong muốn bạn được sử dụng và trải nghiệm sản phẩm “xanh\" trong xu hướng thời trang phát triển bền vững. Chúng tôi hiểu, khởi đầu của 01 dòng sản phẩm tốt là ở chất liệu vải. Coolmate đã tích cực làm việc với nhà phát triển vải hàng đầu nhằm mang đến bạn một loại vải hoàn toàn mới và rất khác biệt.\n\nSorona là sợi được tạo ra và phát triển bởi Dupont, một công ty dẫn đầu thị trường về các giải giáp bền vững, đem đến một cuộc sống tốt hơn, an toàn hơn cho sức khoẻ của con người. Thành phần quan trọng trong Sorona là Bio-PDO, được thực hiện thông qua quá trình lên men đường có chiết xuất từ NGÔ (bắp).\n\nKHẢ NĂNG CO GIÃN VÀ ĐÀN HỒI TUYỆT VỜI\nDo cấu tạo zig zag của sợi Sorona, nó luôn bật trở lại hình dạng ban đầu; làm cho những sản phẩm từ Sorona trở thành sự lựa chọn tuyệt vời cho trang phục hàng ngày. So với sợi Spandex dễ bị biến dạng khi tiếp xúc với nhiệt, tia UV và Clo. Sorona có khả năng co giãn và phục hồi hình dạng rất tốt theo những chuyển động của cơ thể.\n\nVải Sorona không bị nhão và giãn sau thời gian dài sử dụng giúp bạn tránh được tình trạng sản phẩm bị mất form không mong muốn. Coolmate tin với những ưu điểm vượt trội so với sợi Spandex, Sorona hứa hẹn sẽ mang đến bạn sự lựa chọn mới đang tin cậy.",
       "id": 15
+    },
+    {
+      "title": "Áo thể thao nam Quick Dry Cool247",
+      "priceNew": "119.000",
+      "priceOld": "229.000",
+      "sale": "49",
+      "categoryId": 3,
+      "img": [
+        "http://res.cloudinary.com/dw78kmsie/image/upload/v1645330319/img16_1_lvidoz.jpg",
+        "http://res.cloudinary.com/dw78kmsie/image/upload/v1645330320/img16_2_pswne4.jpg"
+      ],
+      "desc": "Đặc điểm nổi bật\n- Chất liệu: 100% sợi Poly\n- Nhà cung cấp vải hàng đầu thế giới trong lĩnh vực vải thể thao; nhà cung cấp chính của Adidas, Nike\n- Công nghệ xử lý hoàn thiện vải: Quickdry (nhanh khô)\n- Phù hợp với các hoạt động thể thao ngoài trời và cả trong nhà\n- Tự hào sản xuất tại Việt Nam\n- Người mẫu: 1m8 - 71kg, mặc XL                                       \n\nCHIẾC ÁO THỂ THAO CHO MỌI VẬN ĐỘNG THOẢI MÁI HẾT SỨC\nTừ chạy bộ sáng sớm đến tập gym buổi chiều, bạn sẽ luôn thoải mái và tự tin hướng đến các mục tiêu tập luyện với chiếc áo thể thao QuickDry Cool247 của nhà Coolmate. Với kiểu dáng áo có tay, để bạn luôn cảm thấy tự tin trong mọi vận động. \n\nVẫn sử dụng vải 100% Polyester và được xử công nghệ QuickDry (nhanh khô) để bạn luôn có cảm giác thoải mái, thoáng mát và tự tin khi tham gia các hoạt động thể thao. Đặc biệt, ưu điểm của sợi Poly là đảm bảo độ bền, không lo rách và luôn giữ chiếc áo của bạn thẳng, không nhăn khi mặc. \n\nƯu điểm của của chiếc áo QuickDry Cool247 \n\n Đừng bỏ lỡ những chiếc áo thể thao nam QuickDry Cool247 đặc biệt từ Coolmate bạn nhé!          ",
+      "id": 16
     }
   ],
   "categorys": [
