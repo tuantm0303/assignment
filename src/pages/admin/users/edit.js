@@ -45,7 +45,7 @@ const EditUser = {
                                                     <label for="company-website" class="block text-sm font-medium text-gray-700">Phân Quyền</label>
                                                     <div class="mt-1 flex rounded-md shadow-sm">
                                                         <input class="shadow-sm focus:ring-indigo-500 focus:border-indigo-500 mt-1 block w-full sm:text-sm border border-gray-300 rounded-md p-3" 
-                                                        type="text" name="permissions" placeholder="User Permissions" id="name" value="${data.name}">
+                                                        type="text" name="permissions" placeholder="User Permissions" id="permission" value="${data.permission}">
                                                     </div>
                                                 </div>
                                             </div>
@@ -74,7 +74,7 @@ const EditUser = {
 
             const postFake = {
                 id,
-                name: document.querySelector("#name").value,
+                permission: document.querySelector("#permission").value,
             };
             update(postFake)
                 .then(() => {

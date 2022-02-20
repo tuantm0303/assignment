@@ -25,6 +25,11 @@ const update = (post) => {
     return instance.put(url, post);
 };
 
+const getPost = (id) => {
+    const url = `/posts?categoryId=${id}`;
+    return instance.get(url);
+};
+
 export {
-    getAll, get, add, remove, update,
+    getAll, get, add, remove, update, getPost,
 };

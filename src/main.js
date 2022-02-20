@@ -95,6 +95,7 @@ router.on({ // on tu Navigo
     "/search/:key": ({ data }) => {
         const { key } = data;
         print(searchPage, key);
+        document.title = `Tìm kiếm sản phẩm ${key}`;
     },
     "/profile": () => {
         print(profilePage);
