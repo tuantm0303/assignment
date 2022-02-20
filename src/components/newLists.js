@@ -62,8 +62,8 @@ const NewLists = {
                         <h3 class="product-cate text-sm">${item.cate}</h3>
                         <div class="product-price">
                             <div rel-script="product-price" class="product-prices flex">
-                                <ins class="text-red-500 text-sm pr-5">${item.priceNew.toLocaleString("vi", { style: "currency", currency: "VND" })} $</ins>
-                                <del>${item.priceOld.toLocaleString("vi", { style: "currency", currency: "VND" })} $</del>
+                                <ins class="text-red-500 text-sm pr-5">${item.priceNew.toLocaleString("vi", { style: "currency", currency: "VND" })} VND</ins>
+                                <del class="text-xs">${item.priceOld.toLocaleString("vi", { style: "currency", currency: "VND" })} VND</del>
                                 <span class="text-red-500 text-sm px-5">-${item.sale}%</span>
                             </div>
                         </div>
