@@ -24,3 +24,8 @@ export const remove = (id) => {
     const url = `/users/${id}`;
     return instance.delete(url);
 };
+
+export const update = (user) => {
+    const url = `/users/${user.id}`;
+    return instance.put(url, user);
+};

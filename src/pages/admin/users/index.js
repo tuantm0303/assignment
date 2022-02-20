@@ -73,6 +73,7 @@ const UsersAdmin = {
                                                 </span>
                                             </td>
                                             <td class="px-6 py-4 whitespace-nowrap text-center text-sm font-medium">
+                                                <a href="/#/admin/user/edit/${item.id}" class="text-white rounded-xl bg-blue-600 py-2 px-4 mr-2 hover:text-black hover:bg-red-600">Edit</a>
                                                 <button data-id="${item.id}" class="btn btn-delete font-semibold border border-blue-600 rounded-xl bg-blue-600 text-white p-2 hover:text-black hover:bg-red-600 hover:border-red-600">Delete</button>
                                             </td>
                                         </tr>`).join("")}

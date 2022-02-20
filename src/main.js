@@ -21,6 +21,7 @@ import AddCategory from "./pages/admin/category/add";
 import EditCategory from "./pages/admin/category/edit";
 import searchPage from "./pages/search";
 import Header from "./components/header";
+import EditUser from "./pages/admin/users/edit";
 
 const router = new Navigo("/", { linksSelector: "a", hash: true });
 
@@ -132,6 +133,11 @@ router.on({ // on tu Navigo
         const { id } = data;
         print(EditCategory, id);
         document.title = "Sửa danh mục";
+    },
+    "/admin/user/edit/:id": ({ data }) => {
+        const { id } = data;
+        print(EditUser, id);
+        document.title = "Phân quyền người dùng";
     },
 });
 
