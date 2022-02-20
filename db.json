@@ -294,6 +294,34 @@
       "desc": "Đặc điểm nổi bật\n- Chất liệu: 98% Cotton + 2% Spandex, có co giãn nhẹ để tạo sự thoải mái khi vận động\n- Kiểu dáng Slightly Slimfit, không bo ống phù hợp mặc đa chức năng\n- Quá trình hoàn thiện đảm bảo chất lượng và tỉ mỉ trong từng đường may\n- BẢO HÀNH TRỌN ĐỜI khoá kéo, bất kỳ khi nào khoá kéo hỏng Coolmate sẽ đổi cho bạn sản phẩm mới!\n- Quần Jeans có form lớn hơn quần bình thường, nếu băn khoăn giữa 2 size, hãy chọn SIZE NHỎ HƠN\n- HDSD: Tránh ngâm trong nước quá lâu - Tránh tiếp xúc cới các chất liệu gây loang màu - Không sử dụng chất tẩy, tránh giặt bằng máy\n- Người mẫu: 1m78 - 73kg, mặc size 31",
       "id": 14,
       "quantity": 3
+    },
+    {
+      "id": 7,
+      "title": "Áo khoác trẻ em New Normal",
+      "priceNew": "199.000",
+      "priceOld": "399.000",
+      "sale": "51",
+      "categoryId": 2,
+      "img": [
+        "http://res.cloudinary.com/dw78kmsie/image/upload/v1645328896/img7_1_qgzzaa.jpg",
+        "http://res.cloudinary.com/dw78kmsie/image/upload/v1645328897/img7_2_s47m2f.jpg"
+      ],
+      "desc": "                                            Bạn Đang Tìm Kiếm Một Chiếc Áo Khoác Cho Gia Đình Trong Cuộc Sống Bình Thường Mới\nĐại dịch Covid-19 không giống như một cơn cúm mùa thông thường mà kéo dài và mang lại sự bất an, buộc tất cả chúng ta phải thay đổi thói quen sống, làm việc và giao tiếp với nhau. Cùng Coolmate xem qua dịch bệnh đã ảnh hưởng như thế nào đến cuộc sống nhé!\n\nĐể thích ứng và bảo vệ gia đình mình tất cả những gì đang diễn ra, Coolmate giới thiệu đến bạn chiếc áo khoác New Normal - một chiếc áo để bạn và gia đình cảm thấy an toàn trong cuộc sống mới.\n\nHeiQ ViroBlock là công nghệ nổi bật nhất của HeiQ công ty công nghệ hàng đầu Thuỵ Sỹ - có tính năng kháng virut và kháng khuẩn. \nĐây là một trong những công nghệ đầu tiên trên thế giới được chứng minh là có hiệu quả chống lại SARS-CoV-2 được ứng dụng lên các sản phẩm may mặc đặc biệt là chiếc áo New Normal Jacket; dựa trên các tiêu chí về độ hiệu quả, độ bền và độ an toàn cho người sử dụng.                                                 ",
+      "quantity": 4
+    },
+    {
+      "id": 12,
+      "title": "Quần thể thao Jogger co giãn",
+      "priceNew": "246.000",
+      "priceOld": "289.000",
+      "sale": "15",
+      "categoryId": 4,
+      "img": [
+        "http://res.cloudinary.com/dw78kmsie/image/upload/v1645329147/img12_1_gqc2nc.jpg",
+        "http://res.cloudinary.com/dw78kmsie/image/upload/v1645329148/img12_2_lmzyoo.jpg"
+      ],
+      "desc": "                                            Đặc điểm nổi bật\n- Chất liệu 100% polyester PTT, đảm bảo nhẹ, thoáng khí, co giãn tuyệt vời\n- Dáng quần Slimfit, bạn có thể chọn tăng thêm 1 size\n- Quần Jogger độ dày vừa phải và co giãn tối đa đảm bảo sự thoải mái trong mọi hoạt động, đặc biệt hoạt động thể thao\n- Thiết kế đơn giản, kiểu dáng khoẻ khoắn với túi khoá kéo YKK\n- Đai chun bo zip kèm dây tiện lợi, vừa vặn với cơ thể\n- Tự hào sản xuất tại Việt Nam\n- Người mẫu: 1m65 nặng 61kg, mặc L\n\nLắng nghe khách hàng của mình và hiểu được mỗi chàng trai đều cần có trong tủ đồ mình 1 chiếc quần Jogger thể thao đặc biệt thoải mái trong mọi vận động. Và Coolmate đặc biệt cho ra mắt sản phẩm Quần thể thao Jogger phiên bản mới với chất liệu vải 100% Polyester PTT đặc biệt CO GIÃN TUYỆT VỜI đem đến sự thoải mái tối đa. ",
+      "quantity": 2
     }
   ]
 }
