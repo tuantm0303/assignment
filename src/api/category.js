@@ -1,30 +1,31 @@
 import instance from "./instance";
 
-const getAll = () => {
+export const getAll = () => {
     const url = "/categorys";
     return instance.get(url);
 };
 
-const get = (id) => {
+export const get = (id) => {
     const url = `/categorys/${id}`;
     return instance.get(url);
 };
 
-const add = (category) => {
+export const add = (category) => {
     const url = `/categorys/`;
     return instance.post(url, category);
 };
 
-const remove = (id) => {
+export const remove = (id) => {
     const url = `/categorys/${id}`;
     return instance.delete(url);
 };
 
-const update = (category) => {
+export const update = (category) => {
     const url = `/categorys/${category.id}`;
     return instance.put(url, category);
 };
 
-export {
-    getAll, get, add, remove, update,
+export const getCategory = () => {
+    const url = `/categorys/?_embed=products`;
+    return instance.get(url);
 };

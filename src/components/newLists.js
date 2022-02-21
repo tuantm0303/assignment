@@ -73,9 +73,6 @@ const NewLists = {
                 <div class="bg-white w-full"></div>
             </div>
         `).join("")}
-        </div>
-        <div class="view-more text-center bg-white h-16 w-full absolute">
-            <a href="#">View-more</a>
         </div>`;
     },
 };
