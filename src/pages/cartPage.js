@@ -1,3 +1,4 @@
+/* eslint-disable no-restricted-globals */
 /* eslint-disable no-console */
 import toastr from "toastr";
 import { add } from "../api/payments";
@@ -187,10 +188,16 @@ const CartPage = {
 
         payment.addEventListener("click", async () => {
             try {
-                await add(...JSON.parse(localStorage.getItem("cart")));
-                localStorage.removeItem("cart");
-                toastr.success("Đặt hàng thành công!");
-                reRender(CartPage, "#main");
+                await add(localStorage.getItem("cart"))
+                    .then(
+                        () => {
+                            toastr.success("Đặt hàng thành công!");
+                            localStorage.removeItem("cart");
+                            setTimeout(() => {
+                                location.reload();
+                            }, 1000);
+                        },
+                    );
             } catch (error) {
                 console.log(error);
             }

@@ -35,9 +35,9 @@ export const decreaseQuantity = (id, next) => {
     decreaseQuantity.quantity--;
     toastr.success("bớt hàng thành công!");
     if (decreaseQuantity.quantity < 1) {
-        const confirm = window.confirm("ban muon xoa san pham nay khong");
+        const confirm = window.confirm("Bạn muốn xóa sản phẩm này không");
         if (confirm) {
-            toastr.success("ban da xoa thanh cong san pham nay khoi gio hang");
+            toastr.success("Bạn đã xóa sản phẩm khỏi giỏ hàng");
             cart = cart.filter((item) => item.id !== +id);
         }
     }
@@ -46,11 +46,11 @@ export const decreaseQuantity = (id, next) => {
 };
 
 export const removePostInCart = (id, next) => {
-    const confirm = window.confirm("ban muon xoa san pham nay khong");
+    const confirm = window.confirm("Bạn muốn xóa sản phẩm này không");
     if (confirm) {
         cart = cart.filter((item) => item.id !== +id);
+        localStorage.setItem("cart", JSON.stringify(cart));
+        toastr.success("Bạn đã xóa sản phẩm khỏi giỏ hàng");
     }
-    localStorage.setItem("cart", JSON.stringify(cart));
-    toastr.success("ban da xoa thanh cong san pham nay khoi gio hang");
     next();
 };
