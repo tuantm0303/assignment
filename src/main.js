@@ -22,6 +22,7 @@ import EditCategory from "./pages/admin/category/edit";
 import searchPage from "./pages/search";
 import Header from "./components/header";
 import EditUser from "./pages/admin/users/edit";
+import categoryPage from "./pages/categoryPage";
 
 const router = new Navigo("/", { linksSelector: "a", hash: true });
 
@@ -59,6 +60,11 @@ router.on({ // on tu Navigo
         const { id } = data;
         print(DetailPost, id);
         document.title = "Chi tiết sản phẩm";
+    },
+    "/category/:id": ({ data }) => {
+        const { id } = data;
+        print(categoryPage, id);
+        document.title = `Danh mục sản phẩm`;
     },
     "/outlet": () => {
         print(OutLet);
