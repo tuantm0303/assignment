@@ -3,11 +3,21 @@
 import { get, update } from "../../../api/category";
 import HeaderAdmin from "../../../components/header_admin";
 import NavAdmin from "../../../components/nav_admin";
+/* eslint-disable import/order */
+// eslint-disable-next-line no-unused-vars
+import validate from "jquery-validation";
+// eslint-disable-next-line import/no-extraneous-dependencies
+import $ from "jquery";
 
 const EditCategory = {
     async render(id) {
         const { data } = await get(id);
         return /* html */ `
+        <style>
+            label.error{
+                color: red;
+            }
+        </style>
         ${HeaderAdmin.render()}
         ${NavAdmin.render()}
         <div class="min-h-full">
@@ -81,6 +91,26 @@ const EditCategory = {
                 .then(() => {
                     window.location.href = "/#/admin/category/index";
                 });
+        });
+
+        $().ready(() => {
+            $("#signupform").validate({
+                onfocusout: false,
+                onkeyup: false,
+                onclick: false,
+                rules: {
+                    title: {
+                        required: true,
+                        minlength: 10,
+                    },
+                },
+                messages: {
+                    name: {
+                        required: "Bắt buộc nhập email",
+                        minlength: "Hãy nhập ít nhất 5 ký tự",
+                    },
+                },
+            });
         });
     },
 };

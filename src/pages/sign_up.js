@@ -3,13 +3,23 @@ import Header from "../components/header";
 import Footer from "../components/footer";
 import { signup } from "../api/user";
 import "toastr/build/toastr.min.css";
+/* eslint-disable import/order */
+// eslint-disable-next-line no-unused-vars
+import validate from "jquery-validation";
+// eslint-disable-next-line import/no-extraneous-dependencies
+import $ from "jquery";
 
 const SignUpPage = {
     render() {
         return /* html */`
+        <style>
+            label.error{
+                color: red;
+            }
+        </style>
         ${Header.render()}
         <div class="bg-gray-100 flex justify-center">
-            <div class="py-6 px-8 h-100 w-96 mt-20 mb-20 bg-white rounded shadow-xl">
+            <div class="py-6 px-8 h-100 w-96 mt-20 mb-20 bg-white rounded shadow-xl w-[500px]">
                 <form id="signupform">
                     <div class="mb-6">
                         <label for="name" class="block text-gray-800 font-bold">Name:</label>
@@ -59,6 +69,43 @@ const SignUpPage = {
                 toastr.error(error.response.data);
                 document.querySelector("#signupform").reset();
             }
+        });
+
+        $().ready(() => {
+            $("#signupform").validate({
+                onfocusout: false,
+                onkeyup: false,
+                onclick: false,
+                rules: {
+                    name: {
+                        required: true,
+                        minlength: 10,
+                    },
+                    email: {
+                        required: true,
+                        minlength: 10,
+                    },
+                    password: {
+                        required: true,
+                        minlength: 8,
+                    },
+
+                },
+                messages: {
+                    name: {
+                        required: "Bắt buộc nhập email",
+                        minlength: "Hãy nhập ít nhất 5 ký tự",
+                    },
+                    email: {
+                        required: "Bắt buộc nhập email",
+                        minlength: "Hãy nhập ít nhất 5 ký tự",
+                    },
+                    password: {
+                        required: "Bắt buộc nhập password",
+                        minlength: "Hãy nhập ít nhất 5 ký tự",
+                    },
+                },
+            });
         });
     },
 };

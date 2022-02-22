@@ -5,7 +5,6 @@
       "priceNew": "599.000",
       "priceOld": "768.000",
       "sale": "23",
-      "cate": "Bộ",
       "img": [
         "http://res.cloudinary.com/dw78kmsie/image/upload/v1645026155/img1_1_azffw7.jpg",
         "http://res.cloudinary.com/dw78kmsie/image/upload/v1645026156/img1_2_kiwhgu.jpg"
@@ -19,7 +18,6 @@
       "priceNew": "559.000",
       "priceOld": "688.000",
       "sale": "19",
-      "cate": "Bộ",
       "img": [
         "http://res.cloudinary.com/dw78kmsie/image/upload/v1645026354/img2_1_z0hznh.jpg",
         "http://res.cloudinary.com/dw78kmsie/image/upload/v1645026355/img2_2_rzasrw.jpg"
@@ -33,7 +31,6 @@
       "priceNew": "899.000",
       "priceOld": "1298.000",
       "sale": "31",
-      "cate": "Bộ",
       "img": [
         "http://res.cloudinary.com/dw78kmsie/image/upload/v1645026681/img3_1_gqdele.jpg",
         "http://res.cloudinary.com/dw78kmsie/image/upload/v1645026682/img3_2_uglv76.jpg"
@@ -47,7 +44,6 @@
       "priceNew": "449.000",
       "priceOld": "578.000",
       "sale": "23",
-      "cate": "Bộ",
       "img": [
         "http://res.cloudinary.com/dw78kmsie/image/upload/v1645026817/img4_1_lc3zlx.jpg",
         "http://res.cloudinary.com/dw78kmsie/image/upload/v1645026818/img4_2_ghhdmk.jpg"
@@ -61,7 +57,6 @@
       "priceNew": "329.000",
       "priceOld": "429.000",
       "sale": "24",
-      "cate": "Bộ",
       "img": [
         "http://res.cloudinary.com/dw78kmsie/image/upload/v1645027084/img5_1_ee0hqy.jpg",
         "http://res.cloudinary.com/dw78kmsie/image/upload/v1645027085/img5_2_o4bdut.jpg"
@@ -356,7 +351,6 @@
       "priceNew": "899.000",
       "priceOld": "1298.000",
       "sale": "31",
-      "cate": "Bộ",
       "img": [
         "http://res.cloudinary.com/dw78kmsie/image/upload/v1645026681/img3_1_gqdele.jpg",
         "http://res.cloudinary.com/dw78kmsie/image/upload/v1645026682/img3_2_uglv76.jpg"
@@ -365,6 +359,22 @@
       "id": 3,
       "categoryId": 1,
       "quantity": 1
-    }
+    },
+    [
+      {
+        "title": "Áo thể thao nam Quick Dry Cool247",
+        "priceNew": "119.000",
+        "priceOld": "229.000",
+        "sale": "49",
+        "categoryId": 3,
+        "img": [
+          "http://res.cloudinary.com/dw78kmsie/image/upload/v1645330319/img16_1_lvidoz.jpg",
+          "http://res.cloudinary.com/dw78kmsie/image/upload/v1645330320/img16_2_pswne4.jpg"
+        ],
+        "desc": "Đặc điểm nổi bật\n- Chất liệu: 100% sợi Poly\n- Nhà cung cấp vải hàng đầu thế giới trong lĩnh vực vải thể thao; nhà cung cấp chính của Adidas, Nike\n- Công nghệ xử lý hoàn thiện vải: Quickdry (nhanh khô)\n- Phù hợp với các hoạt động thể thao ngoài trời và cả trong nhà\n- Tự hào sản xuất tại Việt Nam\n- Người mẫu: 1m8 - 71kg, mặc XL                                       \n\nCHIẾC ÁO THỂ THAO CHO MỌI VẬN ĐỘNG THOẢI MÁI HẾT SỨC\nTừ chạy bộ sáng sớm đến tập gym buổi chiều, bạn sẽ luôn thoải mái và tự tin hướng đến các mục tiêu tập luyện với chiếc áo thể thao QuickDry Cool247 của nhà Coolmate. Với kiểu dáng áo có tay, để bạn luôn cảm thấy tự tin trong mọi vận động. \n\nVẫn sử dụng vải 100% Polyester và được xử công nghệ QuickDry (nhanh khô) để bạn luôn có cảm giác thoải mái, thoáng mát và tự tin khi tham gia các hoạt động thể thao. Đặc biệt, ưu điểm của sợi Poly là đảm bảo độ bền, không lo rách và luôn giữ chiếc áo của bạn thẳng, không nhăn khi mặc. \n\nƯu điểm của của chiếc áo QuickDry Cool247 \n\n Đừng bỏ lỡ những chiếc áo thể thao nam QuickDry Cool247 đặc biệt từ Coolmate bạn nhé!          ",
+        "id": 16,
+        "quantity": 3
+      }
+    ]
   ]
 }

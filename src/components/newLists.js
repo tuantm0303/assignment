@@ -57,9 +57,8 @@ const NewLists = {
                             <a href="#">Mua ngay</a>
                         </button>
                     </div>
-                    <div class="product-heading pl-2 relative bg-white">
+                    <div class="product-heading pl-2 relative bg-white py-5">
                         <h3 class="product-title font-semibold">${item.title}</h3>
-                        <h3 class="product-cate text-sm">${item.cate}</h3>
                         <div class="product-price">
                             <div rel-script="product-price" class="product-prices flex">
                                 <ins class="text-red-500 text-sm pr-5">${item.priceNew.toLocaleString("vi", { style: "currency", currency: "VND" })} VND</ins>

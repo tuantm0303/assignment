@@ -5,10 +5,20 @@ import axios from "axios";
 import { add } from "../../../api/posts";
 import HeaderAdmin from "../../../components/header_admin";
 import NavAdmin from "../../../components/nav_admin";
+/* eslint-disable import/order */
+// eslint-disable-next-line no-unused-vars
+import validate from "jquery-validation";
+// eslint-disable-next-line import/no-extraneous-dependencies
+import $ from "jquery";
 
 const Add = {
     render() {
         return /* html */ `
+        <style>
+            label.error{
+                color: red;
+            }
+        </style>
         ${HeaderAdmin.render()}
         ${NavAdmin.render()}
         <div class="min-h-full">
@@ -206,6 +216,65 @@ const Add = {
                 .then(() => {
                     window.location.href = "/#/admin/posts/index";
                 });
+        });
+
+        $().ready(() => {
+            $("#form-add").validate({
+                onfocusout: false,
+                onkeyup: false,
+                onclick: false,
+                rules: {
+                    title: {
+                        required: true,
+                        minlength: 10,
+                    },
+                    "price-new-post": {
+                        required: true,
+                        minlength: 7,
+                    },
+                    "price-old-post": {
+                        required: true,
+                        minlength: 7,
+                    },
+                    sale: {
+                        required: true,
+                        minlength: 2,
+                    },
+                    cate: {
+                        required: true,
+                        minlength: 7,
+                    },
+                    about: {
+                        require: true,
+                    },
+
+                },
+                messages: {
+                    title: {
+                        required: "Bắt buộc nhập email",
+                        minlength: "Hãy nhập ít nhất 5 ký tự",
+                    },
+                    "price-new-post": {
+                        required: "Bắt buộc nhập price new post",
+                        maxlength: "Bạn không được nhập quá 7 kí tự",
+                    },
+                    "price-old-post": {
+                        required: "Bắt buộc nhập price new post",
+                        maxlength: "Bạn không được nhập quá 7 kí tự",
+                    },
+                    sale: {
+                        required: "Bắt buộc nhập sale",
+                        maxlength: "Bạn không được nhập quá 2 kí tự",
+                    },
+                    cale: {
+                        required: "Bắt buộc nhập cale",
+                        maxlength: "Bạn không được nhập quá 2 kí tự",
+                    },
+                    about: {
+                        required: "Bắt buộc nhập cale",
+                    },
+                },
+            });
         });
     },
 };

@@ -3,10 +3,20 @@
 import { add } from "../../../api/category";
 import HeaderAdmin from "../../../components/header_admin";
 import NavAdmin from "../../../components/nav_admin";
+/* eslint-disable import/order */
+// eslint-disable-next-line no-unused-vars
+import validate from "jquery-validation";
+// eslint-disable-next-line import/no-extraneous-dependencies
+import $ from "jquery";
 
 const AddCategory = {
     render() {
         return /* html */ `
+        <style>
+            label.error{
+                color: red;
+            }
+        </style>
         ${HeaderAdmin.render()}
         ${NavAdmin.render()}
         <div class="min-h-full">
@@ -79,6 +89,27 @@ const AddCategory = {
                 .then(() => {
                     window.location.href = "/#/admin/category/index";
                 });
+        });
+
+        $().ready(() => {
+            $("#form-add").validate({
+                onfocusout: false,
+                onkeyup: false,
+                onclick: false,
+                rules: {
+                    title: {
+                        required: true,
+                        minlength: 10,
+                    },
+
+                },
+                messages: {
+                    title: {
+                        required: "Bắt buộc nhập category",
+                        minlength: "Hãy nhập ít nhất 5 ký tự",
+                    },
+                },
+            });
         });
     },
 };
