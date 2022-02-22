@@ -29,3 +29,8 @@ export const update = (user) => {
     const url = `/users/${user.id}`;
     return instance.put(url, user);
 };
+
+export const patch = (user) => {
+    const url = `/users/${user.id}`;
+    return instance.patch(url, user);
+};

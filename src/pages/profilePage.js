@@ -1,9 +1,12 @@
 // import { get } from "../api/user";
+import { get } from "../api/user";
 import Footer from "../components/footer";
 import Header from "../components/header";
 
 const profilePage = {
-    render() {
+    async render() {
+        const { data } = await get();
+        console.log(data);
         let user = [];
 
         // them vao localStorage

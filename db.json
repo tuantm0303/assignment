@@ -246,7 +246,15 @@
       "email": "tuan2@gmail.com",
       "password": "$2a$10$lClbTO0Ny.SEIUTSmObzKecK0i1LDoBviUdYEZjDxFzxokCrUWHEy",
       "name": "tuan2",
-      "id": 3
+      "id": 3,
+      "permission": "client"
+    },
+    {
+      "email": "tuan03@gmail.com",
+      "password": "$2a$10$LTYcfbDScohcqKh/A9NPpenPF8gNeY10pN4FsJS8YqOKPWgOe0z.W",
+      "name": "tuan3",
+      "id": 4,
+      "permission": "client"
     }
   ],
   "payments": [

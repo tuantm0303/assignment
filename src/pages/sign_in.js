@@ -71,7 +71,7 @@ const SignInPage = {
                     },
                     password: {
                         required: true,
-                        minlength: 8,
+                        minlength: 6,
                     },
 
                 },
@@ -82,7 +82,7 @@ const SignInPage = {
                     },
                     password: {
                         required: "Bắt buộc nhập password",
-                        minlength: "Hãy nhập ít nhất 5 ký tự",
+                        minlength: "Hãy nhập ít nhất 6 ký tự",
                     },
                 },
             });

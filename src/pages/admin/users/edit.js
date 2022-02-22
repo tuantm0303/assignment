@@ -1,6 +1,6 @@
 /* eslint-disable no-plusplus */
 /* eslint-disable no-await-in-loop */
-import { get, update } from "../../../api/user";
+import { get, patch } from "../../../api/user";
 import HeaderAdmin from "../../../components/header_admin";
 import NavAdmin from "../../../components/nav_admin";
 
@@ -76,9 +76,9 @@ const EditUser = {
                 id,
                 permission: document.querySelector("#permission").value,
             };
-            update(postFake)
+            patch(postFake)
                 .then(() => {
-                    window.location.href = "/#/admin/user/index";
+                    document.location.href = "/#/admin/users/index";
                 });
         });
     },
